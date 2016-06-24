@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Aladdin",
+        "type": "Broadway",
+        "logo": "aladdin.png",
+        "url": "http://www.aladdinthemusical.com/",
+        "items": [
+            "Orchestra Sub: Keys 1 & 2",
+            "Original Cast Album: Keyboard",
+            "Music Assistant"
+        ]
+    },
+    {
+        "name": "Newsies",
+        "type": "Broadway",
+        "logo": "newsies.jpg",
+        "url": "http://www.newsiesthemusical.com/",
+        "items": [
+            "Orchestra Sub: Keys 2",
+            "Rehearsal Pianist",
+            "Original Cast Album: Music Assistant"
+        ]
+    },
+    {
+        "name": "Cinderella",
+        "type": "Broadway",
+        "logo": "cinderella.jpeg",
+        "url": "http://cinderellaonbroadway.com/",
+        "items": [
+            "Orchestra Sub: Keys",
+            "Rehearsal Pianist",
+            "Original Cast Album: Music Assistant"
+        ]
+    },
+    {
+        "name": "Sister Act",
+        "type": "Broadway",
+        "logo": "sister_act.jpg",
+        "url": "https://en.wikipedia.org/wiki/Sister_Act_(musical)",
+        "items": [
+            "Orchestra Sub: Keys 1 & 2",
+            "Rehearsal Pianist",
+            "Music Assistant"
+        ]
+    },
+    {
+        "name": "Leap of Faith",
+        "type": "Broadway",
+        "logo": "leap.jpeg",
+        "url": "https://en.wikipedia.org/wiki/Leap_of_Faith_(musical)",
+        "items": [
+            "Original Cast Album: \n Music Assistant"
+        ]
+    },
+    {
+        "name": "Avenue Q",
+        "type": "Off Broadway, National Tour",
+        "logo": "avenue_q.png",
+        "url": "http://avenueq.com/",
+        "items": [
+            "Orchestra Sub: Keys 1 & 2",
+            "Rehearsal Pianist"
+        ]
+    },
+    {
+        "name": "A Christmas Story",
+        "type": "National Tour",
+        "logo": "a_christmas_story.jpeg",
+        "url": "https://en.wikipedia.org/wiki/A_Christmas_Story:_The_Musical",
+        "items": [
+            "Music Assistant",
+            "Rehearsal Pianist"
+        ]
+    },
+    {
+        "name": "The Little Mermaid",
+        "type": "Netherlands",
+        "logo": "mermaid.jpg",
+        "url": "http://www.playbill.com/article/the-little-mermaid-will-swim-into-holland-and-russia-com-193658",
+        "items": [
+            "Music Assistant"
+        ]
+    },
+    {
+        "name": "The Neighbors",
+        "type": "ABC Television",
+        "logo": "neighbors.png",
+        "url": "https://en.wikipedia.org/wiki/The_Neighbors_(2012_TV_series)",
+        "items": [
+            "Music Transcription"
+        ]
+    },
+    {
+        "name": "Galavant",
+        "type": "ABC Television",
+        "logo": "galavant.jpg",
+        "url": "https://en.wikipedia.org/wiki/Galavant",
+        "items": [
+            "Music Transcription"
+        ]
+    }
+]

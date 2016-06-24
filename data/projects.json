@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Online Registration Form",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "online_registration_form.png",
+        "url": "https://github.com/bwhiting2356/online-registration-form",
+        "description": "Online registration form with custom form elements, responsive design"
+    },
+    {
+        "name": "Performance Optimization",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "performance_optimization.png",
+        "url": "https://github.com/bwhiting2356/performance-optimization-v2",
+        "description": "Improved performace with gulp plugins: minify, concat, inline-img"
+    },
+    {
+        "name": "SVG Update",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "svg_update.png",
+        "url": "https://github.com/bwhiting2356/svg-update",
+        "description": "Substituted png images for svgs, added responsive design"
+    },
+    {
+        "name": "Interactive Video Player",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "interactive_video_player.png",
+        "url": "https://github.com/bwhiting2356/interactive-video-player",
+        "description": "Video player with custom controls, highlighted clickable text"
+    },
+    {
+        "name": "Web App Dashboard",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "web_app.png",
+        "url": "https://github.com/bwhiting2356/web-app",
+        "description": "Mock web app front end using Angular and Chart.js"
+    },
+    {
+        "name": "Public API",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "public_api.png",
+        "url": "https://github.com/bwhiting2356/public-api",
+        "description": "Used the deck of cards API for practice using a public API"
+    },
+    {
+        "name": "Interactive Photo Gallery",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "interactive_photo_gallery.png",
+        "url": "https://github.com/bwhiting2356/interactive-photo-gallery",
+        "description": "Photo gallery with search and custom modal window"
+    },
+    {
+        "name": "Ideal Karma",
+        "organization": "Startupbootcamp",
+        "project": "Fintech Hackathon",
+        "screenshot": "ideal_karma.png",
+        "url": "https://github.com/bwhiting2356/ideal_karma",
+        "description": "Front end for text message payments and micro-credit business dashboard"
+    }
+]

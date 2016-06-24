@@ -1,0 +1,572 @@
+[  
+   {  
+      "date":"May 18, 2016",
+      "url":"/courses/learn-git",
+      "company":"Codecademy",
+      "title":"Course Completed: Learn Git"
+   },
+   {  
+      "date":"Mar 23, 2016",
+      "url":"/courses/learn-angularjs",
+      "company":"Codecademy",
+      "title":"Course Completed: Learn AngularJS"
+   },
+   {  
+      "date":"Nov 17, 2015",
+      "url":"/courses/ruby-beginner-en-Zjd2y",
+      "company":"Codecademy",
+      "title":"The Refactor Factory"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/ruby-beginner-en-1o8Mb",
+      "company":"Codecademy",
+      "title":"The Zen of Ruby"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/ruby-beginner-en-0i8v1",
+      "company":"Codecademy",
+      "title":"A Night at the Movies"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/python-intermediate-en-OGNHh",
+      "company":"Codecademy",
+      "title":"File Input/Output"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/python-intermediate-en-egNXj",
+      "company":"Codecademy",
+      "title":"Classes"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/python-intermediate-en-WL8e4",
+      "company":"Codecademy",
+      "title":"Introduction to Classes"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/python-intermediate-en-KE1UJ",
+      "company":"Codecademy",
+      "title":"Introduction to Bitwise Operators"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/python-beginner-en-KAgt5",
+      "company":"Codecademy",
+      "title":"Advanced Topics in Python"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/python-intermediate-en-7mgOa",
+      "company":"Codecademy",
+      "title":"Exam Statistics"
+   },
+   {  
+      "date":"Nov 16, 2015",
+      "url":"/courses/learn-the-command-line",
+      "company":"Codecademy",
+      "title":"Course Completed: Learn the Command Line"
+   },
+   {  
+      "date":"Nov 15, 2015",
+      "url":"/courses/learn-java",
+      "company":"Codecademy",
+      "title":"Course Completed: Learn Java"
+   },
+   {  
+      "date":"Oct 21, 2015",
+      "url":"/courses/learn-sql",
+      "company":"Codecademy",
+      "title":"Course Completed: Learn SQL"
+   },
+   {  
+      "date":"Jan 21, 2015",
+      "url":"/courses/ruby-beginner-en-Qn7Qw",
+      "company":"Codecademy",
+      "title":"Hashes and Symbols"
+   },
+   {  
+      "date":"Jan 11, 2015",
+      "url":"/courses/ruby-beginner-en-nOho7",
+      "company":"Codecademy",
+      "title":"Ordering Your Library"
+   },
+   {  
+      "date":"Jan 11, 2015",
+      "url":"/courses/ruby-beginner-en-ET4bU",
+      "company":"Codecademy",
+      "title":"Methods, Blocks, & Sorting"
+   },
+   {  
+      "date":"Jan 11, 2015",
+      "url":"/courses/ruby-beginner-en-693PD",
+      "company":"Codecademy",
+      "title":"Create a Histogram"
+   },
+   {  
+      "date":"Jan 11, 2015",
+      "url":"/courses/ruby-beginner-en-F3loB",
+      "company":"Codecademy",
+      "title":"Data Structures"
+   },
+   {  
+      "date":"Jan 11, 2015",
+      "url":"/courses/ruby-beginner-en-mzrZ6",
+      "company":"Codecademy",
+      "title":"Redacted!"
+   },
+   {  
+      "date":"Jan 11, 2015",
+      "url":"/courses/ruby-beginner-en-XYcN1",
+      "company":"Codecademy",
+      "title":"Loops & Iterators"
+   },
+   {  
+      "date":"Jan 10, 2015",
+      "url":"/courses/ruby-beginner-en-JdNDe",
+      "company":"Codecademy",
+      "title":"Thith Meanth War!"
+   },
+   {  
+      "date":"Jan 10, 2015",
+      "url":"/courses/ruby-beginner-en-NFCZ7",
+      "company":"Codecademy",
+      "title":"Control Flow in Ruby"
+   },
+   {  
+      "date":"Jan  6, 2015",
+      "url":"/courses/ruby-beginner-en-MxXx5",
+      "company":"Codecademy",
+      "title":"Putting the Form in Formatter"
+   },
+   {  
+      "date":"Jan  5, 2015",
+      "url":"/courses/ruby-beginner-en-d1Ylq",
+      "company":"Codecademy",
+      "title":"Introduction to Ruby"
+   },
+   {  
+      "date":"Dec 16, 2014",
+      "url":"/courses/python-intermediate-en-rCQKw",
+      "company":"Codecademy",
+      "title":"Practice Makes Perfect"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-en-cxMGf",
+      "company":"Codecademy",
+      "title":"Loops"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-en-4XuFm",
+      "company":"Codecademy",
+      "title":"Battleship!"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-nzzVa",
+      "company":"Codecademy",
+      "title":"Lists and Functions"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-en-qzsCL",
+      "company":"Codecademy",
+      "title":"Student Becomes the Teacher"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-en-IZ9Ra",
+      "company":"Codecademy",
+      "title":"A Day at the Supermarket"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-en-pwmb1",
+      "company":"Codecademy",
+      "title":"Python Lists and Dictionaries"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-P5YtY",
+      "company":"Codecademy",
+      "title":"Taking a Vacation"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-c7VZg",
+      "company":"Codecademy",
+      "title":"Functions"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-2W5v7",
+      "company":"Codecademy",
+      "title":"PygLatin"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-BxUFN",
+      "company":"Codecademy",
+      "title":"Conditionals & Control Flow"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-en-zFPOx",
+      "company":"Codecademy",
+      "title":"Date and Time"
+   },
+   {  
+      "date":"Dec 14, 2014",
+      "url":"/courses/python-beginner-sRXwR",
+      "company":"Codecademy",
+      "title":"Strings & Console Output"
+   },
+   {  
+      "date":"Dec 13, 2014",
+      "url":"/courses/python-beginner-GB6hM",
+      "company":"Codecademy",
+      "title":"Tip Calculator"
+   },
+   {  
+      "date":"Dec  9, 2014",
+      "url":"/courses/introduction-to-python-6WeG3",
+      "company":"Codecademy",
+      "title":"Python Syntax"
+   },
+   {  
+      "date":"Nov 29, 2014",
+      "url":"/courses/web-beginner-en-QnQrd",
+      "company":"Codecademy",
+      "title":"Advanced Arrays"
+   },
+   {  
+      "date":"Nov 29, 2014",
+      "url":"/courses/web-beginner-en-bH5s3",
+      "company":"Codecademy",
+      "title":"Object-Oriented PHP"
+   },
+   {  
+      "date":"Nov 29, 2014",
+      "url":"/courses/web-beginner-en-ZQQ64",
+      "company":"Codecademy",
+      "title":"Objects in PHP"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-RcIEe",
+      "company":"Codecademy",
+      "title":"Functions, Part II"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-7I7Xm",
+      "company":"Codecademy",
+      "title":"Functions, Part I"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-5YvPF",
+      "company":"Codecademy",
+      "title":"While Loops in PHP"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-L83Do",
+      "company":"Codecademy",
+      "title":"For Loops in PHP"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-8a35h",
+      "company":"Codecademy",
+      "title":"Arrays"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-jZv2E",
+      "company":"Codecademy",
+      "title":"Control Flow: Switch"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-QF3Wb",
+      "company":"Codecademy",
+      "title":"Conditionals and Control Flow"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-StaFQ",
+      "company":"Codecademy",
+      "title":"Introduction to PHP"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-jtFIC",
+      "company":"Codecademy",
+      "title":"jQuery Effects"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-JwhI1",
+      "company":"Codecademy",
+      "title":"jQuery Events"
+   },
+   {  
+      "date":"Nov 28, 2014",
+      "url":"/courses/web-beginner-en-v6phg",
+      "company":"Codecademy",
+      "title":"Modifying HTML Elements"
+   },
+   {  
+      "date":"Nov 22, 2014",
+      "url":"/courses/web-beginner-en-GfjC6",
+      "company":"Codecademy",
+      "title":"jQuery Functions and Selectors"
+   },
+   {  
+      "date":"Nov 22, 2014",
+      "url":"/courses/web-beginner-en-bay3D",
+      "company":"Codecademy",
+      "title":"Introduction to jQuery"
+   },
+   {  
+      "date":"Nov 21, 2014",
+      "url":"/courses/web-intermediate-en-5R2J0",
+      "company":"Codecademy",
+      "title":"Retrieving Your Data With Queries"
+   },
+   {  
+      "date":"Nov 21, 2014",
+      "url":"/courses/web-beginner-en-B8H1e",
+      "company":"Codecademy",
+      "title":"Introducing Parse"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-EID4t",
+      "company":"Codecademy",
+      "title":"How to use APIs with JavaScript"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/close-the-super-makert",
+      "company":"Codecademy",
+      "title":"Building a Cash Register"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/objects-ii",
+      "company":"Codecademy",
+      "title":"Introduction to Objects II"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/building-an-address-book",
+      "company":"Codecademy",
+      "title":"Building an Address Book"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/spencer-sandbox",
+      "company":"Codecademy",
+      "title":"Introduction to Objects I"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-3bmfN",
+      "company":"Codecademy",
+      "title":"Contact List"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-9Sgpi",
+      "company":"Codecademy",
+      "title":"Arrays and Objects in JS"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-ZA2rb",
+      "company":"Codecademy",
+      "title":"Choose Your Own Adventure 2!"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-qDwp0",
+      "company":"Codecademy",
+      "title":"More on Control Flow in JS"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-mrTNH-6VIZ9",
+      "company":"Codecademy",
+      "title":"Dragon Slayer!"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-ASGIv",
+      "company":"Codecademy",
+      "title":"Introduction to 'While' Loops in JS"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-XEDZA",
+      "company":"Codecademy",
+      "title":"Search Text for Your Name"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-NhsaT",
+      "company":"Codecademy",
+      "title":"Introduction to 'For' Loops in JS"
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-Bthev-mskY8",
+      "company":"Codecademy",
+      "title":"Build \"Rock, Paper, Scissors\""
+   },
+   {  
+      "date":"Nov 20, 2014",
+      "url":"/courses/javascript-beginner-en-6LzGd",
+      "company":"Codecademy",
+      "title":"Introduction to Functions in JS"
+   },
+   {  
+      "date":"Nov 19, 2014",
+      "url":"/courses/javascript-beginner-en-x9DnD",
+      "company":"Codecademy",
+      "title":"Choose Your Own Adventure!"
+   },
+   {  
+      "date":"Nov 19, 2014",
+      "url":"/courses/getting-started-v2",
+      "company":"Codecademy",
+      "title":"Getting Started with Programming"
+   },
+   {  
+      "date":"Nov 19, 2014",
+      "url":"/courses/web-beginner-en-9x6JW-WnAFv",
+      "company":"Codecademy",
+      "title":"Build a Resume"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-6merh",
+      "company":"Codecademy",
+      "title":"CSS Positioning"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-jNuXw",
+      "company":"Codecademy",
+      "title":"Sorting Your Friends"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-WF0CF",
+      "company":"Codecademy",
+      "title":"CSS Selectors"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-UuBLw",
+      "company":"Codecademy",
+      "title":"Design a Button for Your Website"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-TlhFi",
+      "company":"Codecademy",
+      "title":"CSS: An Overview"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-zrZ6c",
+      "company":"Codecademy",
+      "title":"Clickable Photo Page"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-f8mcL",
+      "company":"Codecademy",
+      "title":"HTML Basics III"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-9x6JW",
+      "company":"Codecademy",
+      "title":"Social Networking Profile"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-y2Yjd",
+      "company":"Codecademy",
+      "title":"HTML Basics II"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-LceTK",
+      "company":"Codecademy",
+      "title":"Build Your Own Webpage"
+   },
+   {  
+      "date":"Nov 18, 2014",
+      "url":"/courses/web-beginner-en-HZA3b",
+      "company":"Codecademy",
+      "title":"HTML Basics"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-seyrq",
+      "company":"Codecademy",
+      "title":"Interactive Website: Flipboard"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-hk5qh",
+      "company":"Codecademy",
+      "title":"Interactive Website: Status Update"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-4hxyb",
+      "company":"Codecademy",
+      "title":"Interactive Website: News Reader"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-zmn0b",
+      "company":"Codecademy",
+      "title":"Interactive Website: Push Menu"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-yjvdd",
+      "company":"Codecademy",
+      "title":"Make a Website: Bootstrap"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-vpe7x",
+      "company":"Codecademy",
+      "title":"Make a Website: CSS Layout"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-4lw13",
+      "company":"Codecademy",
+      "title":"Make a Website: CSS Styling"
+   },
+   {  
+      "date":"Nov 17, 2014",
+      "url":"/courses/web-beginner-en-ez2n4",
+      "company":"Codecademy",
+      "title":"Make a Website: HTML"
+   }
+]

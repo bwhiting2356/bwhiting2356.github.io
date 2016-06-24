@@ -1,0 +1,190 @@
+@import 'reset';
+
+
+/********    VARIABLES    ********/
+
+$darkgreen: #485C0E;
+$lightgreen: #5E7414;
+$yellow: #D6CE2E;
+$red: #74180E;
+$brown: #74180E;
+
+$color-header-background: darken($brown, 16%);
+$color-nav-bg:  #595C4E;
+$color-nav-bg-active: lighten($color-nav-bg, 10%);
+$color-main-bg: lighten($color-nav-bg, 60%);
+
+$color-item-border: grey;
+
+$color-main-link: darken(#384D7A, 10%);
+
+
+/********  GLOBAL STYLES  ********/
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+body {
+    font-family: Railway;
+    background: $color-main-bg;
+}
+
+
+header {
+    text-align: center;
+    background: $color-header-background;
+    color: white;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+nav {
+    text-align: center;
+    background: $color-nav-bg;
+    color: white;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+
+    div {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 1.1em;
+
+        &:nth-child(odd) {
+            border-right: 1px $color-header-background solid;
+        }
+    }
+
+    .active div {
+        background: $color-nav-bg-active;
+    }
+}
+
+main {
+    
+    margin: 0;
+
+    a {
+        color: $color-main-link;
+    }
+    h2 {
+        padding: 20px 0 10px 0;  
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+}
+
+.container {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 50px auto;
+}
+
+/* add footer styles for social icons, contact */
+
+/*****  ABOUT  *****/
+
+#headshot {
+    display: inline-block;
+    width: 30%;
+    float: left;    
+}
+
+#lead {
+    display: inline-block;
+    width: 70%;
+    line-height: 1.70em;
+    padding-left: 40px;
+    box-sizing: border-box;
+
+    h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        font-weight: 500;  
+    }
+}
+
+/*****  MUSICIAN, PORTFOLIO  *****/
+
+.show,
+.project {
+    border: 1px solid $color-item-border;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    background: darken($color-main-bg, 3%);
+
+    display: inline-block;
+    h3 {
+        font-weight: bold;
+    }
+
+    img {
+        box-sizing: border-box;
+        width: 100%;
+        transition: opacity .2s;
+        margin: 5px 0;
+        &:hover {
+            opacity: .9;
+        }
+    }
+}
+
+#shows, 
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+#about {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+#portfolio {
+    border-bottom: 1px solid black;
+}
+
+/*****  SKILLS  *****/
+
+#chart {
+    height: 400px;
+    width: 100%;
+    background: lightgreen;
+}
+
+/***** CHART STUFF *****/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+

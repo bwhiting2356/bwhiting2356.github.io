@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="bApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Brendan Whiting: Web Developer | Musician</title>
+  </head>
+  <body>
+    <header>
+      <a href="#about"><h1>Brendan Whiting</h1></a>
+    </header>
+    <nav>
+      <a href="#portfolio-header"><div>Web Developer</div></a><a href="#shows-header"><div>Musician</div></a>
+    </nav>
+    <main>
+      <div class="container">
+        <!-- about -->
+        <div id="about">
+          <img src="img/headshot.jpg" id="headshot"><div id="lead">
+            <h2>Hi, I'm Brendan.</h2>
+            <p> I'm from <a href="https://www.google.com/maps/place/Kamloops,+BC,+Canada/" target="_blank">Kamloops, BC, Canada</a>. I've spent the last few years working as a <a href="#shows-header">musician for Broadway shows</a>, but I'm plotting a new career as a <a href="#portfolio-header">web developer</a>. I like <a href="https://www.google.com/maps/dir/Santa+Monica,+CA/San+Diego,+CA/@33.3674756,-118.3906506,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x80c2a4cec2910019:0xb4170ab5ff23f5ab!2m2!1d-118.4911912!2d34.0194543!1m5!1m1!1s0x80d9530fad921e4b:0xd3a21fdfd15df79!2m2!1d-117.1610838!2d32.715738!3e1" target="_blank">cycling</a>, <a href="" target="_blank">yoga</a>, <a href="#skills">binge learning</a>, <a href="https://en.wikipedia.org/wiki/Breaking_Bad" target="_blank">antihero dramas</a>, and <a href="">other people's dogs</a>.</p>
+          </div>
+        </div>
+
+        <!-- /about -->
+
+        <!-- portfolio -->
+        <h2 id="portfolio-header">Front-End Portfolio</h2>
+        <div id="projects" data-ng-controller="ProjectController">
+          <div class="project" data-ng-repeat="project in projects">
+            <h3>{{ project.name }}</h3>
+            <h4>{{ project.organization }}</h4>
+            <h4>{{ project.project }}</h4>
+            <div class="img-container">
+              <a href="{{ project.url }}" target="_blank">
+                <img class="project-screenshot" data-ng-src="img/project-thumbnails/{{ project.screenshot }}">
+              </a>
+            </div>
+            <p class="description">{{ project.description }}</p>
+          </div>
+        </div>
+        <!-- /portfolio -->
+
+        <!-- skills -->
+        <h2 id="skills">Skills</h2>
+        <div id="skills-container" data-ng-controller="SkillsController">
+          <form id="form">
+            <fieldset id="search-terms">
+              <label for='search' class="section-heading">Search Terms:</label>
+              <input id='search' type='search' data-ng-model="raw_search" ng-change="update_search_terms()">
+            </fieldset>
+            <fieldset id="companies">
+              <div class="section-heading">Companies:</div>
+              <div class="inputs">
+                <input id='check-all' type='checkbox' 
+                  data-ng-model="check_all" data-ng-change="update_inputs()">
+                <label for='check-all'>All</label>
+                <input id='treehouse' class="company-input" type='checkbox' 
+                  data-ng-model="search.companies.treehouse" data-ng-change="update_check_all(treehouse)">
+                <label for='treehouse'>Treehouse</label>
+                <input id='codeschool' class="company-input" type='checkbox' 
+                  data-ng-model="search.companies.codeschool" data-ng-change="update_check_all(codeschool)">
+                <label for='codeschool'>Code School</label>
+                <input id='codecademy' class="company-input" type='checkbox' 
+                  data-ng-model="search.companies.codecademy" data-ng-change="update_check_all(codecademy)">
+                <label for='codecademy'>Codecademy</label>
+                <input id='lynda' class="company-input" type='checkbox' 
+                  data-ng-model="search.companies.lynda" data-ng-change="update_check_all(lynda)">
+                <label for='lynda'>Lynda</label>
+                <input id='smartly' class="company-input" type='checkbox' 
+                  data-ng-model="search.companies.smartly" data-ng-change="update_check_all(smartly)">
+                <label for='smartly'>Smartly</label>
+              </div>
+            </fieldset>
+            <fieldset id="time-period">
+              <div class="section-heading">Time Period:</div>
+              <div class="inputs">
+                <label for='all'>Start</label>
+                <input id='all' type='date' data-ng-model="search.start_time">  
+                <label for='treehouse'>End</label>
+                <input id='treehouse' type='date' data-ng-model="search.end_time">
+              </div>
+            </fieldset>
+          </form>
+          <div id="chart">
+          </div>
+          <div id="results">
+          </div>
+        </div>
+
+        <!-- /skills -->
+
+        <!-- musician -->
+        <h2 id="shows-header">Broadway Keyboards, Music Transcription</h2>
+        <div id="shows" data-ng-controller="ShowController">
+          
+          <div class="show" data-ng-repeat="show in shows">
+            <h3>{{ show.name }}</h3>
+            <h4>{{ show.type }}</h4>
+            <a href="{{ show.url }}" target="_blank">
+              <img class="show-logo" data-ng-src="img/show-thumbnails/{{ show.logo }}">
+            </a>
+            <ul>
+              <li class="item" data-ng-repeat="item in show.items">{{ item }}</li>
+            </ul>
+          </div>
+        </div>
+        <!-- /musician -->
+      </div>
+    </main>
+    <footer>
+      <img src="">
+    </footer>
+    <script src="js/angular.min.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
