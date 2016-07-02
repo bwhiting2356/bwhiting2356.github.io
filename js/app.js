@@ -14,7 +14,16 @@ bApp.controller('ProjectController', function ProjectController($scope, $http) {
 
 bApp.controller('SkillsController', function SkillsController($scope, $http) {
     $http.get('/data/courses.json').then(function(response) {
-        $scope.courses = response.data;
+        $scope.course_results = response.data;
+
+        var dates = [];
+        for (var i = 0; i < $scope.courses.length; i++) {
+          var date = new Date($scope.courses[i].date);
+          if (date === "Invalid Date") {
+            console.log($scope.courses[i])
+          }
+          console.log(date);
+        }
     });
 
     // setting defaults
@@ -107,87 +116,87 @@ var tooltip = d3.select("#chart").append("div")
     .style("opacity", 0);
 
 // load data
-d3.csv("data/cereal.csv", function(error, data) {
+// d3.csv("data/cereal.csv", function(error, data) {
 
-  // change string (from CSV) into number format
-  data.forEach(function(d) {
-    // console.log(d);
-    d.Calories = +d.Calories;
-    d["Protein (g)"] = +d["Protein (g)"];
-      console.log(d);
-  });
+//   // change string (from CSV) into number format
+//   data.forEach(function(d) {
+//     // console.log(d);
+//     d.Calories = +d.Calories;
+//     d["Protein (g)"] = +d["Protein (g)"];
+//       console.log(d);
+//   });
 
-  // don't want dots overlapping axis, so add in buffer to data domain
-  xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
-  yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
+//   // don't want dots overlapping axis, so add in buffer to data domain
+//   xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
+//   yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
 
-  // x-axis
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis)
-    .append("text")
-      .attr("class", "label")
-      .attr("x", width)
-      .attr("y", -6)
-      .style("text-anchor", "end")
-      .text("Calories");
+//   // x-axis
+//   svg.append("g")
+//       .attr("class", "x axis")
+//       .attr("transform", "translate(0," + height + ")")
+//       .call(xAxis)
+//     .append("text")
+//       .attr("class", "label")
+//       .attr("x", width)
+//       .attr("y", -6)
+//       .style("text-anchor", "end")
+//       .text("Calories");
 
-  // y-axis
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-    .append("text")
-      .attr("class", "label")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Protein (g)");
+//   // y-axis
+//   svg.append("g")
+//       .attr("class", "y axis")
+//       .call(yAxis)
+//     .append("text")
+//       .attr("class", "label")
+//       .attr("transform", "rotate(-90)")
+//       .attr("y", 6)
+//       .attr("dy", ".71em")
+//       .style("text-anchor", "end")
+//       .text("Protein (g)");
 
-  // draw dots
-  svg.selectAll(".dot")
-      .data(data)
-    .enter().append("circle")
-      .attr("class", "dot")
-      .attr("r", 3.5)
-      .attr("cx", xMap)
-      .attr("cy", yMap)
-      .style("fill", function(d) { return color(cValue(d));}) 
-      .on("mouseover", function(d) {
-          tooltip.transition()
-               .duration(200)
-               .style("opacity", .9);
-          tooltip.html(d["Cereal Name"] + "<br/> (" + xValue(d) 
-            + ", " + yValue(d) + ")")
-               .style("left", (d3.event.pageX + 5) + "px")
-               .style("top", (d3.event.pageY - 28) + "px");
-      })
-      .on("mouseout", function(d) {
-          tooltip.transition()
-               .duration(500)
-               .style("opacity", 0);
-      });
+//   // draw dots
+//   svg.selectAll(".dot")
+//       .data(data)
+//     .enter().append("circle")
+//       .attr("class", "dot")
+//       .attr("r", 3.5)
+//       .attr("cx", xMap)
+//       .attr("cy", yMap)
+//       .style("fill", function(d) { return color(cValue(d));}) 
+//       .on("mouseover", function(d) {
+//           tooltip.transition()
+//                .duration(200)
+//                .style("opacity", .9);
+//           tooltip.html(d["Cereal Name"] + "<br/> (" + xValue(d) 
+//             + ", " + yValue(d) + ")")
+//                .style("left", (d3.event.pageX + 5) + "px")
+//                .style("top", (d3.event.pageY - 28) + "px");
+//       })
+//       .on("mouseout", function(d) {
+//           tooltip.transition()
+//                .duration(500)
+//                .style("opacity", 0);
+//       });
 
-  // draw legend
-  var legend = svg.selectAll(".legend")
-      .data(color.domain())
-    .enter().append("g")
-      .attr("class", "legend")
-      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+//   // draw legend
+//   var legend = svg.selectAll(".legend")
+//       .data(color.domain())
+//     .enter().append("g")
+//       .attr("class", "legend")
+//       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-  // draw legend colored rectangles
-  legend.append("rect")
-      .attr("x", width - 18)
-      .attr("width", 18)
-      .attr("height", 18)
-      .style("fill", color);
+//   // draw legend colored rectangles
+//   legend.append("rect")
+//       .attr("x", width - 18)
+//       .attr("width", 18)
+//       .attr("height", 18)
+//       .style("fill", color);
 
-  // draw legend text
-  legend.append("text")
-      .attr("x", width - 24)
-      .attr("y", 9)
-      .attr("dy", ".35em")
-      .style("text-anchor", "end")
-      .text(function(d) { return d;})
-});
+//   // draw legend text
+//   legend.append("text")
+//       .attr("x", width - 24)
+//       .attr("y", 9)
+//       .attr("dy", ".35em")
+//       .style("text-anchor", "end")
+//       .text(function(d) { return d;})
+// });

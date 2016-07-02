@@ -1,572 +1,1269 @@
 [  
    {  
-      "date":"May 18, 2016",
-      "url":"/courses/learn-git",
+      "title":"Make an Interactive Website",
+      "date":"2014-11-20T20:14:24.000Z",
+      "estimated_time":"5:00:00",
       "company":"Codecademy",
-      "title":"Course Completed: Learn Git"
+      "url":"https://www.codecademy.com/en/skills/make-an-interactive-website"
    },
    {  
-      "date":"Mar 23, 2016",
-      "url":"/courses/learn-angularjs",
+      "title":"Learn AngularJS 1.X",
+      "date":"2016-05-26T20:14:24.000Z",
+      "estimated_time":"5:00:00",
       "company":"Codecademy",
-      "title":"Course Completed: Learn AngularJS"
+      "url":"https://www.codecademy.com/learn/learn-angularjs"
    },
    {  
-      "date":"Nov 17, 2015",
-      "url":"/courses/ruby-beginner-en-Zjd2y",
+      "title":"Learn the Command Line",
+      "date":"2015-11-15T20:14:24.000Z",
+      "estimated_time":"3:00:00",
       "company":"Codecademy",
-      "title":"The Refactor Factory"
+      "url":"https://www.codecademy.com/learn/learn-the-command-line"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/ruby-beginner-en-1o8Mb",
+      "title":"Learn SQL",
+      "date":"2015-10-21T20:14:24.000Z",
+      "estimated_time":"3:00:00",
       "company":"Codecademy",
-      "title":"The Zen of Ruby"
+      "url":"https://www.codecademy.com/learn/learn-sql"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/ruby-beginner-en-0i8v1",
+      "title":"Learn Java",
+      "date":"2015-11-24T20:14:24.000Z",
+      "estimated_time":"4:00:00",
       "company":"Codecademy",
-      "title":"A Night at the Movies"
+      "url":"https://www.codecademy.com/learn/learn-java"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/python-intermediate-en-OGNHh",
+      "title":"Learn Git",
+      "date":"2016-05-16T20:14:24.000Z",
+      "estimated_time":"2:00:00",
       "company":"Codecademy",
-      "title":"File Input/Output"
+      "url":"https://www.codecademy.com/learn/learn-git"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/python-intermediate-en-egNXj",
+      "title":"HTML & CSS",
+      "date":"2014-11-20T20:14:24.000Z",
+      "estimated_time":"7:00:00",
       "company":"Codecademy",
-      "title":"Classes"
+      "url":"https://www.codecademy.com/learn/web"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/python-intermediate-en-WL8e4",
+      "title":"JavaScript",
+      "date":"2014-11-21T20:14:24.000Z",
+      "estimated_time":"10:00:00",
       "company":"Codecademy",
-      "title":"Introduction to Classes"
+      "url":"https://www.codecademy.com/learn/javascript"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/python-intermediate-en-KE1UJ",
+      "title":"JQuery",
+      "date":"2014-11-28T20:14:24.000Z",
+      "estimated_time":"3:00:00",
       "company":"Codecademy",
-      "title":"Introduction to Bitwise Operators"
+      "url":"https://www.codecademy.com/learn/jquery"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/python-beginner-en-KAgt5",
+      "title":"PHP",
+      "date":"2014-11-29T20:14:24.000Z",
+      "estimated_time":"4:00:00",
       "company":"Codecademy",
-      "title":"Advanced Topics in Python"
+      "url":"https://www.codecademy.com/learn/php"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/python-intermediate-en-7mgOa",
+      "title":"Python",
+      "date":"2015-11-16T20:14:24.000Z",
+      "estimated_time":"13:00:00",
       "company":"Codecademy",
-      "title":"Exam Statistics"
+      "url":"https://www.codecademy.com/learn/python"
    },
    {  
-      "date":"Nov 16, 2015",
-      "url":"/courses/learn-the-command-line",
-      "company":"Codecademy",
-      "title":"Course Completed: Learn the Command Line"
+      "title":"Front End Foundations",
+      "date":"2016-04-29T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/front-end-foundations"
    },
    {  
-      "date":"Nov 15, 2015",
-      "url":"/courses/learn-java",
-      "company":"Codecademy",
-      "title":"Course Completed: Learn Java"
+      "title":"Front End Formations",
+      "date":"2016-04-29T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/front-end-formations"
    },
    {  
-      "date":"Oct 21, 2015",
-      "url":"/courses/learn-sql",
-      "company":"Codecademy",
-      "title":"Course Completed: Learn SQL"
+      "title":"CSS Cross Country",
+      "date":"2016-05-16T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/css-cross-country"
    },
    {  
-      "date":"Jan 21, 2015",
-      "url":"/courses/ruby-beginner-en-Qn7Qw",
-      "company":"Codecademy",
-      "title":"Hashes and Symbols"
+      "title":"Journey Into Mobile",
+      "date":"2016-06-16T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/journey-into-mobile"
    },
    {  
-      "date":"Jan 11, 2015",
-      "url":"/courses/ruby-beginner-en-nOho7",
-      "company":"Codecademy",
-      "title":"Ordering Your Library"
+      "title":"Adventures in Web Animations",
+      "date":"2016-06-16T20:14:24.000Z",
+      "estimated_time":"2:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/adventures-in-web-animations"
    },
    {  
-      "date":"Jan 11, 2015",
-      "url":"/courses/ruby-beginner-en-ET4bU",
-      "company":"Codecademy",
-      "title":"Methods, Blocks, & Sorting"
+      "title":"You, Me & SVG",
+      "date":"2016-06-28T20:14:24.000Z",
+      "estimated_time":"2:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/you-me-svg"
    },
    {  
-      "date":"Jan 11, 2015",
-      "url":"/courses/ruby-beginner-en-693PD",
-      "company":"Codecademy",
-      "title":"Create a Histogram"
+      "title":"Assembling Sass",
+      "date":"2016-06-17T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/assembling-sass"
    },
    {  
-      "date":"Jan 11, 2015",
-      "url":"/courses/ruby-beginner-en-F3loB",
-      "company":"Codecademy",
-      "title":"Data Structures"
+      "title":"Assembling Sass Part 2",
+      "date":"2016-06-28T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/assembling-sass-part-2"
    },
    {  
-      "date":"Jan 11, 2015",
-      "url":"/courses/ruby-beginner-en-mzrZ6",
-      "company":"Codecademy",
-      "title":"Redacted!"
+      "title":"Blasting Off with Bootstrap",
+      "date":"2016-06-09T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/blasting-off-with-bootstrap"
    },
    {  
-      "date":"Jan 11, 2015",
-      "url":"/courses/ruby-beginner-en-XYcN1",
-      "company":"Codecademy",
-      "title":"Loops & Iterators"
+      "title":"Fundamentals of Design",
+      "date":"2016-06-09T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/fundamentals-of-design"
    },
    {  
-      "date":"Jan 10, 2015",
-      "url":"/courses/ruby-beginner-en-JdNDe",
-      "company":"Codecademy",
-      "title":"Thith Meanth War!"
+      "title":"Elements of Web Design",
+      "date":"2016-06-06T20:14:24.000Z",
+      "estimated_time":"2:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/the-elements-of-web-design"
    },
    {  
-      "date":"Jan 10, 2015",
-      "url":"/courses/ruby-beginner-en-NFCZ7",
-      "company":"Codecademy",
-      "title":"Control Flow in Ruby"
+      "title":"JavaScript Road Trip Part 1",
+      "date":"2016-04-16T20:14:24.000Z",
+      "estimated_time":"2:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/javascript-road-trip-part-1"
    },
    {  
-      "date":"Jan  6, 2015",
-      "url":"/courses/ruby-beginner-en-MxXx5",
-      "company":"Codecademy",
-      "title":"Putting the Form in Formatter"
+      "title":"JavaScript Road Trip Part 2",
+      "date":"2016-04-17T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/javascript-road-trip-part-2"
    },
    {  
-      "date":"Jan  5, 2015",
-      "url":"/courses/ruby-beginner-en-d1Ylq",
-      "company":"Codecademy",
-      "title":"Introduction to Ruby"
+      "title":"JavaScript Road Trip Part 3",
+      "date":"2016-05-10T20:14:24.000Z",
+      "estimated_time":"6:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/javascript-road-trip-part-3"
    },
    {  
-      "date":"Dec 16, 2014",
-      "url":"/courses/python-intermediate-en-rCQKw",
-      "company":"Codecademy",
-      "title":"Practice Makes Perfect"
+      "title":"ES2015: The Shape of JavaScript to Come",
+      "date":"2016-06-08T20:14:24.000Z",
+      "estimated_time":"6:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-en-cxMGf",
-      "company":"Codecademy",
-      "title":"Loops"
+      "title":"JavaScript Best Practices",
+      "date":"2016-06-02T20:14:24.000Z",
+      "estimated_time":"6:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/javascript-best-practices"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-en-4XuFm",
-      "company":"Codecademy",
-      "title":"Battleship!"
+      "title":"Try jQuery",
+      "date":"2016-06-18T20:14:24.000Z",
+      "estimated_time":"6:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/try-jquery"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-nzzVa",
-      "company":"Codecademy",
-      "title":"Lists and Functions"
+      "title":"jQuery: The Return Flight",
+      "date":"2016-06-12T20:14:24.000Z",
+      "estimated_time":"6:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/jquery-the-return-flight"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-en-qzsCL",
-      "company":"Codecademy",
-      "title":"Student Becomes the Teacher"
+      "title":"Accelerating Through Angular 2",
+      "date":"2016-06-30T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/accelerating-through-angular-2"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-en-IZ9Ra",
-      "company":"Codecademy",
-      "title":"A Day at the Supermarket"
+      "title":"Powering Up With React",
+      "date":"2016-06-08T20:14:24.000Z",
+      "estimated_time":"3:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/powering-up-with-react"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-en-pwmb1",
-      "company":"Codecademy",
-      "title":"Python Lists and Dictionaries"
+      "title":"Shaping up with Angular.js",
+      "date":"2016-05-09T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Company",
+      "url":"https://www.codeschool.com/courses/shaping-up-with-angular-js"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-P5YtY",
-      "company":"Codecademy",
-      "title":"Taking a Vacation"
+      "title":"Real-time Web with Node.js",
+      "date":"2016-06-03T20:14:24.000Z",
+      "estimated_time":"6:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/real-time-web-with-node-js"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-c7VZg",
-      "company":"Codecademy",
-      "title":"Functions"
+      "title":"Building Blocks of Express.js",
+      "date":"2016-06-04T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/building-blocks-of-express-js"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-2W5v7",
-      "company":"Codecademy",
-      "title":"PygLatin"
+      "title":"Git Real",
+      "date":"2016-06-30T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/git-real"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-BxUFN",
-      "company":"Codecademy",
-      "title":"Conditionals & Control Flow"
+      "title":"Try SQL",
+      "date":"2016-06-10T20:14:24.000Z",
+      "estimated_time":"2:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/try-sql"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-en-zFPOx",
-      "company":"Codecademy",
-      "title":"Date and Time"
+      "title":"The Sequel to SQL",
+      "date":"2016-06-11T20:14:24.000Z",
+      "estimated_time":"4:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/the-sequel-to-sql"
    },
    {  
-      "date":"Dec 14, 2014",
-      "url":"/courses/python-beginner-sRXwR",
-      "company":"Codecademy",
-      "title":"Strings & Console Output"
+      "title":"The Magical Marvels of MongoDB",
+      "date":"2016-06-04T20:14:24.000Z",
+      "estimated_time":"6:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/the-magical-marvels-of-mongodb"
    },
    {  
-      "date":"Dec 13, 2014",
-      "url":"/courses/python-beginner-GB6hM",
-      "company":"Codecademy",
-      "title":"Tip Calculator"
+      "title":"Breaking the Ice With Regular Expressions",
+      "date":"2016-06-17T20:14:24.000Z",
+      "estimated_time":"2:00:00",
+      "company":"Code School",
+      "url":"https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions"
    },
    {  
-      "date":"Dec  9, 2014",
-      "url":"/courses/introduction-to-python-6WeG3",
-      "company":"Codecademy",
-      "title":"Python Syntax"
+      "title":"How to Start a Business",
+      "date":"2014-12-14T18:44:55.000Z",
+      "estimated_time":"195:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/how-to-start-a-business"
    },
    {  
-      "date":"Nov 29, 2014",
-      "url":"/courses/web-beginner-en-QnQrd",
-      "company":"Codecademy",
-      "title":"Advanced Arrays"
+      "title":"Soft Skills",
+      "date":"2016-01-02T00:34:06.000Z",
+      "estimated_time":"212:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/soft-skills"
    },
    {  
-      "date":"Nov 29, 2014",
-      "url":"/courses/web-beginner-en-bH5s3",
-      "company":"Codecademy",
-      "title":"Object-Oriented PHP"
+      "title":"Copyright Basics",
+      "date":"2015-12-24T07:38:44.000Z",
+      "estimated_time":"100:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/copyright-basics"
    },
    {  
-      "date":"Nov 29, 2014",
-      "url":"/courses/web-beginner-en-ZQQ64",
-      "company":"Codecademy",
-      "title":"Objects in PHP"
+      "title":"Careers Foundations",
+      "date":"2015-12-24T11:20:48.000Z",
+      "estimated_time":"244:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/careers-foundations"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-RcIEe",
-      "company":"Codecademy",
-      "title":"Functions, Part II"
+      "title":"How to Market Your Business",
+      "date":"2015-10-17T12:45:16.000Z",
+      "estimated_time":"193:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/how-to-market-your-business"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-7I7Xm",
-      "company":"Codecademy",
-      "title":"Functions, Part I"
+      "title":"C# Basics",
+      "date":"2015-11-19T02:23:04.000Z",
+      "estimated_time":"194:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/c-basics"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-5YvPF",
-      "company":"Codecademy",
-      "title":"While Loops in PHP"
+      "title":"CSS Transitions and Transforms",
+      "date":"2016-03-17T08:23:59.000Z",
+      "estimated_time":"185:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-transitions-and-transforms"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-L83Do",
-      "company":"Codecademy",
-      "title":"For Loops in PHP"
+      "title":"CSS Flexbox Layout",
+      "date":"2016-01-31T10:21:54.000Z",
+      "estimated_time":"105:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-flexbox-layout"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-8a35h",
-      "company":"Codecademy",
-      "title":"Arrays"
+      "title":"CSS Layout Basics",
+      "date":"2016-01-29T00:11:43.000Z",
+      "estimated_time":"169:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-layout-basics"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-jZv2E",
-      "company":"Codecademy",
-      "title":"Control Flow: Switch"
+      "title":"Animating SVG with CSS",
+      "date":"2016-02-19T05:58:07.000Z",
+      "estimated_time":"85:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/animating-svg-with-css"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-QF3Wb",
-      "company":"Codecademy",
-      "title":"Conditionals and Control Flow"
+      "title":"CSS to Sass",
+      "date":"2016-02-07T07:52:24.000Z",
+      "estimated_time":"117:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-to-sass"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-StaFQ",
-      "company":"Codecademy",
-      "title":"Introduction to PHP"
+      "title":"Responsive Layouts",
+      "date":"2016-03-08T16:07:57.000Z",
+      "estimated_time":"47:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/responsive-layouts"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-jtFIC",
-      "company":"Codecademy",
-      "title":"jQuery Effects"
+      "title":"CSS - Beyond the Basics",
+      "date":"2016-02-16T05:07:51.000Z",
+      "estimated_time":"270:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-beyond-the-basics"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-JwhI1",
-      "company":"Codecademy",
-      "title":"jQuery Events"
+      "title":"CSS Selectors",
+      "date":"2015-10-25T12:20:03.000Z",
+      "estimated_time":"169:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-selectors"
    },
    {  
-      "date":"Nov 28, 2014",
-      "url":"/courses/web-beginner-en-v6phg",
-      "company":"Codecademy",
-      "title":"Modifying HTML Elements"
+      "title":"CSS Basics",
+      "date":"2015-10-23T07:25:35.000Z",
+      "estimated_time":"469:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-basics"
    },
    {  
-      "date":"Nov 22, 2014",
-      "url":"/courses/web-beginner-en-GfjC6",
-      "company":"Codecademy",
-      "title":"jQuery Functions and Selectors"
+      "title":"Sass Basics",
+      "date":"2016-02-13T05:38:38.000Z",
+      "estimated_time":"262:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/sass-basics"
    },
    {  
-      "date":"Nov 22, 2014",
-      "url":"/courses/web-beginner-en-bay3D",
-      "company":"Codecademy",
-      "title":"Introduction to jQuery"
+      "title":"CSS Foundations",
+      "date":"2016-03-08T07:57:34.000Z",
+      "estimated_time":"738:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-foundations"
    },
    {  
-      "date":"Nov 21, 2014",
-      "url":"/courses/web-intermediate-en-5R2J0",
-      "company":"Codecademy",
-      "title":"Retrieving Your Data With Queries"
+      "title":"Reporting with SQL",
+      "date":"2016-02-29T23:35:52.000Z",
+      "estimated_time":"166:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/reporting-with-sql"
    },
    {  
-      "date":"Nov 21, 2014",
-      "url":"/courses/web-beginner-en-B8H1e",
-      "company":"Codecademy",
-      "title":"Introducing Parse"
+      "title":"Modifying Data with SQL",
+      "date":"2016-03-01T04:44:51.000Z",
+      "estimated_time":"80:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/modifying-data-with-sql"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-EID4t",
-      "company":"Codecademy",
-      "title":"How to use APIs with JavaScript"
+      "title":"Mongo Basics",
+      "date":"2016-03-29T18:12:06.000Z",
+      "estimated_time":"87:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/mongo-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/close-the-super-makert",
-      "company":"Codecademy",
-      "title":"Building a Cash Register"
+      "title":"SQL Basics",
+      "date":"2015-12-16T07:36:31.000Z",
+      "estimated_time":"172:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/sql-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/objects-ii",
-      "company":"Codecademy",
-      "title":"Introduction to Objects II"
+      "title":"Brand Identity Basics",
+      "date":"2015-12-22T08:24:16.000Z",
+      "estimated_time":"55:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/brand-identity-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/building-an-address-book",
-      "company":"Codecademy",
-      "title":"Building an Address Book"
+      "title":"UX Basics",
+      "date":"2015-12-22T00:22:50.000Z",
+      "estimated_time":"128:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/ux-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/spencer-sandbox",
-      "company":"Codecademy",
-      "title":"Introduction to Objects I"
+      "title":"Aesthetic Foundations",
+      "date":"2015-12-22T02:29:26.000Z",
+      "estimated_time":"66:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/aesthetic-foundations"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-3bmfN",
-      "company":"Codecademy",
-      "title":"Contact List"
+      "title":"Usability Foundations",
+      "date":"2016-01-04T20:14:24.000Z",
+      "estimated_time":"90:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/usability-foundations"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-9Sgpi",
-      "company":"Codecademy",
-      "title":"Arrays and Objects in JS"
+      "title":"Design Foundations",
+      "date":"2015-12-21T22:24:43.000Z",
+      "estimated_time":"167:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/design-foundations"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-ZA2rb",
-      "company":"Codecademy",
-      "title":"Choose Your Own Adventure 2!"
+      "title":"REST API Basics",
+      "date":"2016-03-21T21:47:11.000Z",
+      "estimated_time":"19:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/rest-api-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-qDwp0",
-      "company":"Codecademy",
-      "title":"More on Control Flow in JS"
+      "title":"HTTP Basics",
+      "date":"2016-03-18T13:07:18.000Z",
+      "estimated_time":"67:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/http-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-mrTNH-6VIZ9",
-      "company":"Codecademy",
-      "title":"Dragon Slayer!"
+      "title":"Scrum Basics",
+      "date":"2016-06-08T02:44:38.000Z",
+      "estimated_time":"107:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/scrum-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-ASGIv",
-      "company":"Codecademy",
-      "title":"Introduction to 'While' Loops in JS"
+      "title":"Front End Performance Optimization",
+      "date":"2016-05-18T23:47:46.000Z",
+      "estimated_time":"92:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/front-end-performance-optimization"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-XEDZA",
-      "company":"Codecademy",
-      "title":"Search Text for Your Name"
+      "title":"Technology Foundations",
+      "date":"2015-12-07T20:40:50.000Z",
+      "estimated_time":"42:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/technology-foundations"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-NhsaT",
-      "company":"Codecademy",
-      "title":"Introduction to 'For' Loops in JS"
+      "title":"Website Basics",
+      "date":"2015-12-07T15:50:41.000Z",
+      "estimated_time":"36:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/website-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-Bthev-mskY8",
-      "company":"Codecademy",
-      "title":"Build \"Rock, Paper, Scissors\""
+      "title":"Git Basics",
+      "date":"2015-12-07T15:08:00.000Z",
+      "estimated_time":"250:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/git-basics"
    },
    {  
-      "date":"Nov 20, 2014",
-      "url":"/courses/javascript-beginner-en-6LzGd",
-      "company":"Codecademy",
-      "title":"Introduction to Functions in JS"
+      "title":"Console Foundations",
+      "date":"2015-11-06T06:26:42.000Z",
+      "estimated_time":"225:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/console-foundations"
    },
    {  
-      "date":"Nov 19, 2014",
-      "url":"/courses/javascript-beginner-en-x9DnD",
-      "company":"Codecademy",
-      "title":"Choose Your Own Adventure!"
+      "title":"How the Web Works",
+      "date":"2015-10-17T01:33:07.000Z",
+      "estimated_time":"35:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/how-the-web-works"
    },
    {  
-      "date":"Nov 19, 2014",
-      "url":"/courses/getting-started-v2",
-      "company":"Codecademy",
-      "title":"Getting Started with Programming"
+      "title":"Computer Basics",
+      "date":"2015-10-17T00:13:46.000Z",
+      "estimated_time":"55:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/computer-basics"
    },
    {  
-      "date":"Nov 19, 2014",
-      "url":"/courses/web-beginner-en-9x6JW-WnAFv",
-      "company":"Codecademy",
-      "title":"Build a Resume"
+      "title":"Responsive Images",
+      "date":"2016-01-29T23:11:25.000Z",
+      "estimated_time":"65:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/responsive-images"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-6merh",
-      "company":"Codecademy",
-      "title":"CSS Positioning"
+      "title":"SVG Basics",
+      "date":"2015-11-21T08:00:35.000Z",
+      "estimated_time":"46:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/svg-basics"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-jNuXw",
-      "company":"Codecademy",
-      "title":"Sorting Your Friends"
+      "title":"HTML Video and Audio",
+      "date":"2016-02-19T10:48:13.000Z",
+      "estimated_time":"116:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/html-video-and-audio"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-WF0CF",
-      "company":"Codecademy",
-      "title":"CSS Selectors"
+      "title":"Treehouse Club: HTML",
+      "date":"2015-10-17T03:28:40.000Z",
+      "estimated_time":"44:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/treehouse-club-html"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-UuBLw",
-      "company":"Codecademy",
-      "title":"Design a Button for Your Website"
+      "title":"HTML Tables",
+      "date":"2014-11-29T02:52:23.000Z",
+      "estimated_time":"59:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/html-tables"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-TlhFi",
-      "company":"Codecademy",
-      "title":"CSS: An Overview"
+      "title":"HTML Forms",
+      "date":"2014-11-29T01:59:53.000Z",
+      "estimated_time":"157:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/html-forms"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-zrZ6c",
-      "company":"Codecademy",
-      "title":"Clickable Photo Page"
+      "title":"How to Make a Website",
+      "date":"2014-11-28T06:01:40.000Z",
+      "estimated_time":"503:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/how-to-make-a-website"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-f8mcL",
-      "company":"Codecademy",
-      "title":"HTML Basics III"
+      "title":"Accessibility",
+      "date":"2016-02-27T06:59:58.000Z",
+      "estimated_time":"101:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/accessibility"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-9x6JW",
-      "company":"Codecademy",
-      "title":"Social Networking Profile"
+      "title":"Swift 2.0 Protocols",
+      "date":"2015-12-18T06:16:26.000Z",
+      "estimated_time":"87:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/swift-20-protocols"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-y2Yjd",
-      "company":"Codecademy",
-      "title":"HTML Basics II"
+      "title":"Swift 2.0 Enumerations and Optionals",
+      "date":"2015-12-19T05:48:19.000Z",
+      "estimated_time":"140:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/swift-20-enumerations-and-optionals"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-LceTK",
-      "company":"Codecademy",
-      "title":"Build Your Own Webpage"
+      "title":"Build a Simple iPhone App with Swift 2.0",
+      "date":"2015-12-19T06:20:38.000Z",
+      "estimated_time":"203:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/build-a-simple-iphone-app-with-swift-20"
    },
    {  
-      "date":"Nov 18, 2014",
-      "url":"/courses/web-beginner-en-HZA3b",
-      "company":"Codecademy",
-      "title":"HTML Basics"
+      "title":"Object-Oriented Swift 2.0",
+      "date":"2015-11-13T02:01:02.000Z",
+      "estimated_time":"135:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/objectoriented-swift-20"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-seyrq",
-      "company":"Codecademy",
-      "title":"Interactive Website: Flipboard"
+      "title":"Swift 2.0 Functions",
+      "date":"2015-11-13T00:56:26.000Z",
+      "estimated_time":"72:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/swift-20-functions"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-hk5qh",
-      "company":"Codecademy",
-      "title":"Interactive Website: Status Update"
+      "title":"Swift 2.0 Collections and Control Flow",
+      "date":"2015-11-13T00:25:42.000Z",
+      "estimated_time":"159:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/swift-20-collections-and-control-flow"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-4hxyb",
-      "company":"Codecademy",
-      "title":"Interactive Website: News Reader"
+      "title":"Swift 2.0 Basics",
+      "date":"2015-11-08T02:25:38.000Z",
+      "estimated_time":"145:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/swift-20-basics"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-zmn0b",
-      "company":"Codecademy",
-      "title":"Interactive Website: Push Menu"
+      "title":"Build a Simple iPhone App with Swift",
+      "date":"2015-11-19T01:51:55.000Z",
+      "estimated_time":"166:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/build-a-simple-iphone-app-with-swift"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-yjvdd",
-      "company":"Codecademy",
-      "title":"Make a Website: Bootstrap"
+      "title":"Java Basics",
+      "date":"2015-10-27T02:12:32.000Z",
+      "estimated_time":"133:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/java-basics"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-vpe7x",
-      "company":"Codecademy",
-      "title":"Make a Website: CSS Layout"
+      "title":"Building a MEAN Application",
+      "date":"2016-06-01T02:03:39.000Z",
+      "estimated_time":"140:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/building-a-mean-application"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-4lw13",
-      "company":"Codecademy",
-      "title":"Make a Website: CSS Styling"
+      "title":"Angular Basics",
+      "date":"2016-03-21T21:58:34.000Z",
+      "estimated_time":"197:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/angular-basics"
    },
    {  
-      "date":"Nov 17, 2014",
-      "url":"/courses/web-beginner-en-ez2n4",
-      "company":"Codecademy",
-      "title":"Make a Website: HTML"
+      "title":"Express Basics",
+      "date":"2016-03-28T00:33:13.000Z",
+      "estimated_time":"206:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/express-basics"
+   },
+   {  
+      "title":"npm Basics",
+      "date":"2016-03-27T17:09:28.000Z",
+      "estimated_time":"76:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/npm-basics"
+   },
+   {  
+      "title":"Object-Oriented JavaScript",
+      "date":"2015-10-29T04:36:50.000Z",
+      "estimated_time":"134:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/objectoriented-javascript"
+   },
+   {  
+      "title":"Gulp Basics",
+      "date":"2016-03-31T01:18:46.000Z",
+      "estimated_time":"137:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/gulp-basics"
+   },
+   {  
+      "title":"Using jQuery Plugins",
+      "date":"2015-10-28T19:29:48.000Z",
+      "estimated_time":"92:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/using-jquery-plugins"
+   },
+   {  
+      "title":"Build a Simple Dynamic Site with Node.js",
+      "date":"2016-03-26T16:57:21.000Z",
+      "estimated_time":"122:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs"
+   },
+   {  
+      "title":"JavaScript Loops, Arrays and Objects",
+      "date":"2015-10-20T00:47:58.000Z",
+      "estimated_time":"266:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/javascript-loops-arrays-and-objects"
+   },
+   {  
+      "title":"Node.js Basics",
+      "date":"2015-10-29T22:15:05.000Z",
+      "estimated_time":"128:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/nodejs-basics"
+   },
+   {  
+      "title":"Treehouse Club - MASH",
+      "date":"2015-10-17T10:19:36.000Z",
+      "estimated_time":"177:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/treehouse-club-mash"
+   },
+   {  
+      "title":"JavaScript Basics",
+      "date":"2015-10-19T06:43:34.000Z",
+      "estimated_time":"378:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/javascript-basics"
+   },
+   {  
+      "title":"Treehouse Club: JavaScript",
+      "date":"2015-10-17T04:40:30.000Z",
+      "estimated_time":"54:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/treehouse-club-javascript"
+   },
+   {  
+      "title":"Interactive Web Pages with JavaScript",
+      "date":"2015-10-28T20:08:53.000Z",
+      "estimated_time":"140:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/interactive-web-pages-with-javascript"
+   },
+   {  
+      "title":"AJAX Basics",
+      "date":"2015-10-29T20:27:10.000Z",
+      "estimated_time":"317:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/ajax-basics"
+   },
+   {  
+      "title":"jQuery Basics",
+      "date":"2015-10-20T10:11:06.000Z",
+      "estimated_time":"313:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/jquery-basics"
+   },
+   {  
+      "title":"PHP Functions",
+      "date":"2015-11-23T03:20:43.000Z",
+      "estimated_time":"66:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/php-functions-2"
+   },
+   {  
+      "title":"PHP Basics",
+      "date":"2015-11-23T01:56:15.000Z",
+      "estimated_time":"135:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/php-basics"
+   },
+   {  
+      "title":"Customizing Django Templates",
+      "date":"2016-01-08T06:23:41.000Z",
+      "estimated_time":"136:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/customizing-django-templates"
+   },
+   {  
+      "title":"Functional Python",
+      "date":"2015-12-03T22:03:57.000Z",
+      "estimated_time":"158:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/functional-python"
+   },
+   {  
+      "title":"Python Testing",
+      "date":"2015-11-29T18:30:53.000Z",
+      "estimated_time":"77:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/python-testing"
+   },
+   {  
+      "title":"Using Databases in Python",
+      "date":"2015-11-29T14:41:27.000Z",
+      "estimated_time":"119:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/using-databases-in-python"
+   },
+   {  
+      "title":"Regular Expressions in Python",
+      "date":"2015-11-27T10:07:45.000Z",
+      "estimated_time":"110:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/regular-expressions-in-python"
+   },
+   {  
+      "title":"Flask Basics",
+      "date":"2015-11-30T13:41:01.000Z",
+      "estimated_time":"189:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/flask-basics"
+   },
+   {  
+      "title":"Dates and Times in Python",
+      "date":"2015-11-26T13:50:08.000Z",
+      "estimated_time":"133:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/dates-and-times-in-python"
+   },
+   {  
+      "title":"Write Better Python",
+      "date":"2015-11-22T09:41:11.000Z",
+      "estimated_time":":00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/write-better-python"
+   },
+   {  
+      "title":"Object-Oriented Python",
+      "date":"2015-11-22T08:47:37.000Z",
+      "estimated_time":"134:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/objectoriented-python"
+   },
+   {  
+      "title":"Python Collections",
+      "date":"2015-11-20T09:06:12.000Z",
+      "estimated_time":":00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/python-collections"
+   },
+   {  
+      "title":"Ruby Basics",
+      "date":"2015-12-04T09:28:24.000Z",
+      "estimated_time":"123:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/ruby-basics"
+   },
+   {  
+      "title":"Ruby Collections",
+      "date":"2015-12-07T16:14:13.000Z",
+      "estimated_time":"106:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/ruby-collections"
+   },
+   {  
+      "title":"Ruby Operators and Control Structures",
+      "date":"2015-12-07T12:12:31.000Z",
+      "estimated_time":"104:00",
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/ruby-operators-and-control-structures"
+   },
+   {  
+      "title":"Human Resources in the On-Demand Economy",
+      "date":"2016-06-19T16:14:13.000Z",
+      "estimated_time":"1:07:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Business-Skills-tutorials/Human-Resources-Demand-Economy/434464-2.html"
+   },
+   {  
+      "title":"SQL Essential Training",
+      "date":"2016-06-19T16:14:13.000Z",
+      "estimated_time":"3:27:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/SQL-tutorials/SQL-Essential-Training/139988-2.html"
+   },
+   {  
+      "title":"Foundations of Programming: Data Structures",
+      "date":"2016-06-18T16:14:13.000Z",
+      "estimated_time":"2:29:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Data-Structures/149042-2.html"
+   },
+   {  
+      "title":"Git Essential Training",
+      "date":"2016-06-10T16:14:13.000Z",
+      "estimated_time":"6:25:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Git-tutorials/Git-Essential-Training/100222-2.html"
+   },
+   {  
+      "title":"Web Project Workflows with Gulp.js, Git, and Browserify",
+      "date":"2016-05-27T16:14:13.000Z",
+      "estimated_time":"2:40:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Web-Design-tutorials/Web-Project-Workflows-Gulp-js-Git-Browserify/154416-2.html"
+   },
+   {  
+      "title":"Node.js Essential Training",
+      "date":"2016-05-23T16:14:13.000Z",
+      "estimated_time":"6:16:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Node-js-tutorials/Node-js-Essential-Training/417077-2.html"
+   },
+   {  
+      "title":"Up and Running with AppleScript",
+      "date":"2016-05-20T16:14:13.000Z",
+      "estimated_time":"1:42:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/AppleScript-tutorials/Up-Running-AppleScript/158309-2.html"
+   },
+   {  
+      "title":"Unix for Mac OS X Users",
+      "date":"2016-05-20T16:14:13.000Z",
+      "estimated_time":"6:35:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Mac-OS-X-10-6-tutorials/Unix-for-Mac-OS-X-Users/78546-2.html"
+   },
+   {  
+      "title":"Fundamentals of Software Version Control",
+      "date":"2016-05-17T16:14:13.000Z",
+      "estimated_time":"2:55:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Version-Control-tutorials/Fundamentals-Software-Version-Control/106788-2.html"
+   },
+   {  
+      "title":"Foundations of UX: Accessibility",
+      "date":"2016-01-14T16:14:13.000Z",
+      "estimated_time":"1:20:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Accessibility-tutorials/Foundations-UX-Accessibility/435008-2.html"
+   },
+   {  
+      "title":"Finance Fundamentals",
+      "date":"2015-09-12T16:14:13.000Z",
+      "estimated_time":"3:27:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Business-Accounting-tutorials/Finance-Fundamentals/174917-2.html"
+   },
+   {  
+      "title":"Growth Hacking Fundamentals",
+      "date":"2015-08-29T16:14:13.000Z",
+      "estimated_time":"1:38:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/B2C-Marketing-tutorials/Growth-Hacking-Fundamentals/191493-2.html"
+   },
+   {  
+      "title":"Relational Database Fundamentals",
+      "date":"2015-08-27T16:14:13.000Z",
+      "estimated_time":"2:40:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Access-tutorials/Relational-Database-Fundamentals/145932-2.html"
+   },
+   {  
+      "title":"Foundations of Programming: Object-Oriented Design",
+      "date":"2015-08-10T16:14:13.000Z",
+      "estimated_time":"3:01:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Java-tutorials/Foundations-Programming-Object-Oriented-Design/96949-2.html"
+   },
+   {  
+      "title":"Bookkeeping",
+      "date":"2015-08-07T16:14:13.000Z",
+      "estimated_time":"1:28:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Business-Finance-tutorials/Bookkeeping/371328-2.html"
+   },
+   {  
+      "title":"Accounting Fundamentals",
+      "date":"2015-08-04T16:14:13.000Z",
+      "estimated_time":"2:46:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Business-Accounting-tutorials/Accounting-Fundamentals/158665-2.html"
+   },
+   {  
+      "title":"Understanding Copyright: A Deeper Dive",
+      "date":"2015-08-04T16:14:13.000Z",
+      "estimated_time":"1:12:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Business-Skills-tutorials/Understanding-Copyright-Deeper-Dive/365065-2.html"
+   },
+   {  
+      "title":"Mac OS X Yosemite New Features",
+      "date":"2014-11-09T16:14:13.000Z",
+      "estimated_time":"58:00",
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Mac-OS-X-tutorials/Mac-OS-X-Yosemite-New-Features/181883-2.html"
+   },
+   {  
+      "title":"Macroeconomics I: Fundamentals",
+      "date":"2016-05-05T16:14:13.000Z",
+      "estimated_time":"30:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-macroeconomics-i-fundamentals--smartly/f6296448-533f-456f-bdc3-1b0c83cf039f"
+   },
+   {  
+      "title":"Macroeconomics: Economic Fluctuations",
+      "date":"2016-04-12T16:14:13.000Z",
+      "estimated_time":"61:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/macroeconomics-economic-fluctuations/b4e8c5b1-322f-4f23-af88-78f8732dc0b1"
+   },
+   {  
+      "title":"Macroeconomics: International Trade",
+      "date":"2015-09-23T16:14:13.000Z",
+      "estimated_time":"60:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-macroeconomics-international-trade--smartly/64064f30-c285-4cb3-bf65-8252c9465e5e"
+   },
+   {  
+      "title":"Macroeconomics: US Fiscal and Monetary Policy",
+      "date":"2016-06-05T16:14:13.000Z",
+      "estimated_time":"109:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/macroeconomics-iii/d522c9c2-5a4d-457c-b8d4-6f7bd2bef2c2"
+   },
+   {  
+      "title":"Microeconomics I: Supply and Demand",
+      "date":"2016-08-13T16:14:13.000Z",
+      "estimated_time":"129:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-microeconomics-i-supply--demand--smartly/95437d2a-0211-4899-825d-e2107c6729e6"
+   },
+   {  
+      "title":"Microeconomics II: Shape Your Economic Worldview",
+      "date":"2015-09-23T16:14:13.000Z",
+      "estimated_time":"44:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-microeconomics-ii--smartly/624fed26-ac6c-4ff9-91ad-e9ab537ac39e"
+   },
+   {  
+      "title":"Microeconomics III: Markets and Externalities",
+      "date":"2016-06-13T16:14:13.000Z",
+      "estimated_time":"69:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-microeconomics-iii-markets--externalities/dccbfe7e-325c-4df6-8ce4-a6ea12a5dec0"
+   },
+   {  
+      "title":"Accounting I: Fundamentals",
+      "date":"2015-08-13T16:14:13.000Z",
+      "estimated_time":"68:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-accounting-i-fundamentals--smartly/50eeda2d-1b44-4a1d-b425-dead8982526f"
+   },
+   {  
+      "title":"Accounting II: Revenue and Expenses",
+      "date":"2016-04-12T16:14:13.000Z",
+      "estimated_time":"60:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-accounting-ii-revenues--expenses--smartly/3106919b-8b93-46b0-97b1-e08ef9093d02"
+   },
+   {  
+      "title":"Accounting III: Financial Statements",
+      "date":"2015-10-03T16:14:13.000Z",
+      "estimated_time":"37:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-accounting-iii-financial-statements--smartly/c70acae7-374f-4272-811e-1f797569700f"
+   },
+   {  
+      "title":"Accounting IV: Working with Ratios",
+      "date":"2016-04-14T16:14:13.000Z",
+      "estimated_time":"45:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-accounting-iv-working-with-ratios--smartly/5a5f3969-5778-4b4d-9f7c-b4571ecdc93a"
+   },
+   {  
+      "title":"Cost of Capital I: Capital Structure",
+      "date":"2015-09-25T16:14:13.000Z",
+      "estimated_time":"23:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-cost-of-capital--smartly/7724f79b-67da-4e24-a44f-4e8e48a5b6c0"
+   },
+   {  
+      "title":"Cost of Capital II: The Modigliani-Miller Theorem",
+      "date":"2016-04-18T16:14:13.000Z",
+      "estimated_time":"24:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/cost-of-capital-ii-the-modigliani-miller-theorem/33d2c41c-cc5b-4abe-9b5e-0aa8d4b728bf"
+   },
+   {  
+      "title":"Finance: Time Value of Money",
+      "date":"2015-07-31T16:14:13.000Z",
+      "estimated_time":"53:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-finance-time-value-of-money--smartly/222d17ff-718d-4bbc-b4df-444e71e7aec9"
+   },
+   {  
+      "title":"Personal Investing",
+      "date":"2015-08-14T16:14:13.000Z",
+      "estimated_time":"71:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-investing-stocks--bonds--smartly/964fe746-9fb7-46c8-883c-4b653579733d"
+   },
+   {  
+      "title":"Stocks and Bonds",
+      "date":"2016-05-04T16:14:13.000Z",
+      "estimated_time":"64:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/stocks-and-bonds/c94d702d-d6ef-4b86-9cbe-d229c7cea733"
+   },
+   {  
+      "title":"Valuation 1: Discounted Free Cash Flow",
+      "date":"2016-05-05T16:14:13.000Z",
+      "estimated_time":"35:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/valuation/136267fd-0b9d-4420-a433-b94e793da97f"
+   },
+   {  
+      "title":"Coffee Break 1",
+      "date":"2016-04-11T16:14:13.000Z",
+      "estimated_time":"27:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/latte--learn-with-smartlys-coffee-breaks/336f8b4f-dcdd-473e-a45b-bb9e211d0feb"
+   },
+   {  
+      "title":"Company Formation Law",
+      "date":"2016-05-12T16:14:13.000Z",
+      "estimated_time":"39:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/company-formation-law/45017255-63d5-4ddf-befb-61313d0c1bee"
+   },
+   {  
+      "title":"Digital Marketing Fundamentals",
+      "date":"2016-05-04T16:14:13.000Z",
+      "estimated_time":"91:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-digital-marketing-fundamentals--smartly/5192ccb3-0dd2-458f-b238-cc8d15748aec"
+   },
+   {  
+      "title":"Marketing Fundamentals",
+      "date":"2015-09-26T16:14:13.000Z",
+      "estimated_time":"41:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-marketing-fundamentals--smartly/abd47e21-4b59-4ccf-910d-fb1c18b2e9df"
+   },
+   {  
+      "title":"Pricing I: Fundamentals",
+      "date":"2016-05-02T16:14:13.000Z",
+      "estimated_time":"99:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/pricing-i/1cff0dc6-4522-4ec4-950d-f9a84785bddd"
+   },
+   {  
+      "title":"Pricing II: Price Segmentation to Maximize Profit",
+      "date":"2016-06-16T16:14:13.000Z",
+      "estimated_time":"53:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/pricing-ii/caac28bb-062e-4e0b-a758-bb63be632a85"
+   },
+   {  
+      "title":"Operations Management Fundamentals",
+      "date":"2016-04-17T16:14:13.000Z",
+      "estimated_time":"99:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-operations-management-fundamentals--smartly/f370e8ce-55a5-4612-b6de-d80a57eb795a"
+   },
+   {  
+      "title":"Operations Management: Managing Uncertainty of Demand",
+      "date":"2016-05-02T16:14:13.000Z",
+      "estimated_time":"69:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-operations-management-uncertain-demand--smartly/eb375ff7-8a8f-467c-ae09-aa3c634bb336"
+   },
+   {  
+      "title":"Project Management",
+      "date":"2016-06-30T16:14:13.000Z",
+      "estimated_time":"67:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/project-management/aae8ec62-2181-49fd-b3c4-9672c85a2aa2"
+   },
+   {  
+      "title":"Developing a Corporate Philosophy",
+      "date":"2016-04-22T16:14:13.000Z",
+      "estimated_time":"18:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/developing-a-corporate-philosophy/fe51c70d-dee9-4259-94b9-fbb3cbabf141"
+   },
+   {  
+      "title":"Organization Behavior: Working in Groups and Teams",
+      "date":"2015-09-25T16:14:13.000Z",
+      "estimated_time":"48:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/organizational-behavior-working-in-groups-and-teams/bcd0644f-fb79-4409-850c-feccb698d776"
+   },
+   {  
+      "title":"Organizational Structure and Culture",
+      "date":"2016-04-28T16:14:13.000Z",
+      "estimated_time":"65:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-organizational-structure-and-culture--smartly/97ec237c-bbcb-4d8d-ae0f-6528e7d1da7a"
+   },
+   {  
+      "title":"Theories of Leadership",
+      "date":"2015-09-27T16:14:13.000Z",
+      "estimated_time":"64:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-leadership-fundamentals--smartly/e0575521-49b8-4311-b722-a7d75c4b3524"
+   },
+   {  
+      "title":"Data Collection",
+      "date":"2015-08-13T16:14:13.000Z",
+      "estimated_time":"30:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-data-collection--smartly/d79316c4-a419-41ff-ae42-be14fe70af44"
+   },
+   {  
+      "title":"One-Variable Statistics",
+      "date":"2015-08-13T16:14:13.000Z",
+      "estimated_time":"44:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-one-variable-statistics--smartly/8d720fb5-0320-4bf4-8c40-50808267a1be"
+   },
+   {  
+      "title":"Probability and Combinatorics",
+      "date":"2016-04-29T16:14:13.000Z",
+      "estimated_time":"42:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/probability-and-combinatorics/86a3abd6-edba-4e7f-ab71-08185c12469d"
+   },
+   {  
+      "title":"Probability Distributions",
+      "date":"2016-04-30T16:14:13.000Z",
+      "estimated_time":"85:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/probability-distributions/34a3fc30-d065-462b-b12c-c83411a8e230"
+   },
+   {  
+      "title":"Probability Fundamentals",
+      "date":"2016-04-28T16:14:13.000Z",
+      "estimated_time":"44:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/probability-fundamentals/e08c8202-595b-462a-a161-534e40ab7448"
+   },
+   {  
+      "title":"Regression Analysis",
+      "date":"2016-05-02T16:14:13.000Z",
+      "estimated_time":"81:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/regression-analysis/29337992-e1cb-455d-b86e-86440822d780"
+   },
+   {  
+      "title":"Two-Variable Statistics",
+      "date":"2015-08-13T16:14:13.000Z",
+      "estimated_time":"39:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-two-variable-statistics--smartly/56e93418-1abf-457e-a2ab-1510a9b344e2"
+   },
+   {  
+      "title":"Blue Ocean Strategy",
+      "date":"2015-08-13T16:14:13.000Z",
+      "estimated_time":"60:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-blue-ocean-strategy--smartly/87b85177-fdf6-4cf8-a29a-c44b0ef77530"
+   },
+   {  
+      "title":"Strategy I: Analysis and Business-Level Strategy",
+      "date":"2016-06-04T16:14:13.000Z",
+      "estimated_time":"60:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/learn-strategy--smartly/85bde255-ab11-496c-828d-bdd0e70e0492"
+   },
+   {  
+      "title":"Strategy II: Corporate-Level Strategy",
+      "date":"2016-06-07T16:14:13.000Z",
+      "estimated_time":"45:00",
+      "company":"Smartly",
+      "url":"https://smart.ly/course/strategy-ii-corporate-level-strategy/6084cb67-e2da-4e78-8bfc-27083d93eb16"
    }
 ]
