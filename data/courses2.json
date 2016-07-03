@@ -316,7 +316,7 @@
          "hours":4,
          "minutes":0
       },
-      "company":"Code School",
+      "company":"Company",
       "url":"https://www.codeschool.com/courses/shaping-up-with-angular-js"
    },
    {  
@@ -1173,8 +1173,8 @@
       "title":"Write Better Python",
       "date":"2015-11-22T09:41:11.000Z",
       "time":{  
-         "hours":1,
-         "minutes":10
+         "hours":0,
+         "minutes":0
       },
       "company":"Treehouse",
       "url":"https://teamtreehouse.com/library/write-better-python"
@@ -1193,8 +1193,8 @@
       "title":"Python Collections",
       "date":"2015-11-20T09:06:12.000Z",
       "time":{  
-         "hours":3,
-         "minutes":20
+         "hours":0,
+         "minutes":0
       },
       "company":"Treehouse",
       "url":"https://teamtreehouse.com/library/python-collections"
@@ -1451,7 +1451,7 @@
    },
    {  
       "title":"Microeconomics I: Supply and Demand",
-      "date":"2015-08-13T16:14:13.000Z",
+      "date":"2016-08-13T16:14:13.000Z",
       "time":{  
          "hours":2,
          "minutes":9

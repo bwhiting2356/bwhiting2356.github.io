@@ -48,7 +48,7 @@
           <form id="form">
             <fieldset id="search-terms">
               <label for='search' class="section-heading">Search Terms:</label>
-              <input id='search' type='search' data-ng-model="raw_search" ng-change="update_search_terms()">
+              <input id='search' class="inputs" type='search' data-ng-model="raw_search" ng-change="update_search_terms()">
             </fieldset>
             <fieldset id="companies">
               <div class="section-heading">Companies:</div>
@@ -56,11 +56,11 @@
                 <input id='check-all' type='checkbox' 
                   data-ng-model="check_all" data-ng-change="update_inputs()">
                 <label for='check-all'>All</label>
-                <input id='treehouse' class="company-input" type='checkbox' 
+                <input id='treehouse' class="company-input" type='checkbox'
                   data-ng-model="search.companies.treehouse" data-ng-change="update_check_all(treehouse)">
                 <label for='treehouse'>Treehouse</label>
                 <input id='codeschool' class="company-input" type='checkbox' 
-                  data-ng-model="search.companies.codeschool" data-ng-change="update_check_all(codeschool)">
+                  data-ng-model="search.companies['code school']" data-ng-change="update_check_all(codeschool)">
                 <label for='codeschool'>Code School</label>
                 <input id='codecademy' class="company-input" type='checkbox' 
                   data-ng-model="search.companies.codecademy" data-ng-change="update_check_all(codecademy)">
@@ -77,21 +77,66 @@
               <div class="section-heading">Time Period:</div>
               <div class="inputs">
                 <label for='all'>Start</label>
-                <input id='all' type='date' data-ng-model="search.start_time">  
+                <input id='all' type='date' data-ng-model="search.start_date" 
+                data-ng-change="update_date_constraint()">  
                 <label for='treehouse'>End</label>
-                <input id='treehouse' type='date' data-ng-model="search.end_time">
+                <input id='treehouse' type='date' data-ng-model="search.end_date"
+                data-ng-change="update_date_constraint()">
               </div>
             </fieldset>
           </form>
-          <div id="chart">
+<!--           <div id="chart">
+          </div> -->
+          <div id="headers">
+            <div class="logo"></div>
+            <div class="company">Company</div>
+            <div class="title">Course Title</div>
+            <div class="date">Date Taken</div>
+            <div class="time">Course Length</div>
           </div>
           <div id="results">
             <div class="course_result" data-ng-repeat="course in course_results">
-              <div class="logo"></div>
+              <a ng-href="{{ course.url }}" target="_blank">
+              <img class="logo" data-ng-src="{{ course.company | makeCompanyIntoLogoUrl }}">
+              <div class="company">{{ course.company }}</div>
               <div class="title">{{ course.title}}</div>
-              <div class="date">{{ course.date }}</div>
-              <div class="time">{{ course.time }}</div>
+              <div class="date">{{ course.date | date}}</div>
+              <div class="time">
+                <span class="hours" data-ng-show="course.time.hours">{{course.time.hours}}
+                  <ng-pluralize count="course.time.hours"
+                                when="{'1': 'hour',
+                                        'other': 'hours'}">
+                  </ng-pluralize>
+                </span>
+                <span class="comma" data-ng-show="course.time.hours && course.time.minutes">,</span>
+                <span class="minutes" data-ng-show="course.time.minutes">{{course.time.minutes}}
+                  <ng-pluralize count="course.time.minutes"
+                                when="{'1': 'minute',
+                                        'other': 'minutes'}">
+                  </ng-pluralize>
+                </span>
+              </div>
+              </a>
             </div>
+          </div>
+          <div id="totals" data-ng-show="course_results">
+            <div class="total_courses">Total Courses: {{ course_results.length }} </div>
+            <div class="total_time">
+                <span class="hours" data-ng-show="courses_total_time.hours">Total Time: {{courses_total_time.hours}}
+                  <ng-pluralize count="courses_total_time.hours"
+                                when="{'1': 'hour',
+                                        'other': 'hours'}">
+                  </ng-pluralize>
+                </span>
+                <span class="comma" data-ng-show="courses_total_time.hours && 
+                                                  courses_total_time.minutes">,</span>
+                <span class="minutes" data-ng-show="courses_total_time.minutes">{{courses_total_time.minutes}}
+                  <ng-pluralize count="courses_total_time.minutes"
+                                when="{'1': 'minute',
+                                        'other': 'minutes'}">
+                  </ng-pluralize>
+                </span>
+              </div>
           </div>
         </div>
 
@@ -100,7 +145,6 @@
         <!-- musician -->
         <h2 id="shows-header">Broadway Keyboards, Music Transcription</h2>
         <div id="shows" data-ng-controller="ShowController">
-          
           <div class="show" data-ng-repeat="show in shows">
             <h3>{{ show.name }}</h3>
             <h4>{{ show.type }}</h4>

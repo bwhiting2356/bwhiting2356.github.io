@@ -162,10 +162,106 @@ main {
 
 /*****  SKILLS  *****/
 
+#skills-container {
+    margin: 0 auto;
+}
+
+#form {
+    .section-heading {
+        width: 100px;
+        display: inline-block;
+    }
+    .inputs {
+        width: calc(100% - 110px);
+        display: inline-block;
+    }
+}
+
 #chart {
     height: 400px;
     width: 100%;
     background: lightgreen;
+}
+
+
+
+.course_result a,
+#headers {
+    display: flex;
+    padding: 2px 0;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    .logo {
+        margin-left: 2px;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+    }
+    .company {
+        margin-left: 10px;
+        height: 50px;
+        width: 100px;
+        line-height: 50px;
+        display: inline-block;
+    }
+    .title {
+        margin-left: 10px;
+        display: inline-block;
+        width: 400px;
+        height: 50px;
+        line-height: 50px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .date {
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .time {
+        display: inline-block;
+        width: 150px;        
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .comma {
+        margin-left: -4px;
+    }
+}
+
+#headers {
+    border-top: 1px solid grey;
+    background: $color-header-background;
+    color: white;
+}
+
+#totals {
+
+    padding: 2px 0;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    .total_time {
+        float: right;
+        display: inline-block;
+        width: 300px;        
+        height: 50px;
+        line-height: 50px;
+    }
+    .total_courses {
+        margin-left: 10px;
+        display: inline-block;
+        width: 200px;        
+        height: 50px;
+        line-height: 50px;
+    }
+    .comma {
+        margin-left: -4px;
+    }
 }
 
 /***** CHART STUFF *****/
