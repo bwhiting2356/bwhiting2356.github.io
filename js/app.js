@@ -25,6 +25,38 @@ bApp.controller('SkillsController', function SkillsController($scope, $http) {
         $scope.update_check_all();
     });
 
+    $scope.sort_courses = function(field) {
+      function compare(a, b) {
+        if (field !== 'time') {
+          console.log(a[field]);
+          console.log(b[field]);
+          if (a[field] < b[field]) {
+            return -1;
+          } else if (a[field] === b[field]) {
+            return 0;
+          } else if (a[field] > b[field]) {
+            return 1;
+          }
+        } else {
+          if (a.time.hours < b.time.hours) {
+            return -1;
+          } else if (a.time.hours > b.time.hours) {
+            return 0;
+          } else if (a.time.hours === b.time.hours) {
+            if (a.time.minutes < b.time.minutes) {
+              return -1;
+            } else if (a.time.minutes === b.time.minutes) {
+              return 0;
+            } else if (a.time.minutes > b.time.minutes) {
+              return 1;
+            }
+          }
+        }
+      }
+      $scope.course_results = $scope.course_results.sort(compare);
+      $scope.paginate_results();
+    }
+
     $scope.matching_course = function(course) {
         // test matching companies
         var companies = $scope.make_company_list();
@@ -45,12 +77,42 @@ bApp.controller('SkillsController', function SkillsController($scope, $http) {
         var within_date_constraints = ((course_date >= $scope.search.start_date) 
                                        && (course_date <= $scope.search.end_date));
         // console.log(course);
-        console.log(within_date_constraints);
         return matching_company && matching_search_terms && within_date_constraints;
+    }
+
+    $scope.update_pagination_constraints = function() {
+        $scope.can_increment = ($scope.current_page +1 !=  $scope.paginated_results.length);
+        $scope.can_decrement = ($scope.current_page !== 0);
+    }
+
+    $scope.paginate_results = function() {
+        var new_array = [];
+        var array_copy = $scope.course_results.slice();
+        while (array_copy.length > 0) {
+          new_array.push(array_copy.splice(0,7));
+        }
+        $scope.paginated_results = new_array;
+        $scope.current_page = 0;
+        $scope.update_pagination_constraints();
+    }
+
+    $scope.increment_page = function() {
+      if ($scope.can_increment) {
+        $scope.current_page += 1;
+        $scope.update_pagination_constraints();
+      }
+    }
+
+    $scope.decrement_page = function() {
+      if ($scope.can_decrement)  {
+        $scope.current_page -= 1;
+        $scope.update_pagination_constraints();
+      }
     }
 
     $scope.filter_courses = function() {
       $scope.course_results = $scope.all_courses.filter($scope.matching_course);
+      $scope.paginate_results();
       $scope.compute_total_time();
     }
 

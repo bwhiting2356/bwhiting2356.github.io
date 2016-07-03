@@ -158,10 +158,25 @@ main {
 
 #form .section-heading {
   width: 100px;
-  display: inline-block; }
+  display: inline-block;
+  float: left;
+  margin-top: 9px; }
 #form .inputs {
   width: calc(100% - 110px);
   display: inline-block; }
+#form .checkbox input[type="checkbox"] {
+  margin-left: 0;
+  margin-top: 2px; }
+
+#companies {
+  float: left;
+  display: inline-block;
+  width: 40%; }
+
+#time-period {
+  float: right;
+  display: inline-block;
+  width: 40%; }
 
 #chart {
   height: 400px;
@@ -200,24 +215,52 @@ main {
     text-overflow: ellipsis; }
   .course_result a .date,
   #headers .date {
+    text-align: right;
+    margin-right: 10px;
     display: inline-block;
-    width: 100px;
+    width: 110px;
     height: 50px;
     line-height: 50px; }
   .course_result a .time,
   #headers .time {
+    text-align: right;
+    margin-right: 10px;
     display: inline-block;
     width: 150px;
     height: 50px;
     line-height: 50px; }
   .course_result a .comma,
   #headers .comma {
-    margin-left: -4px; }
+    margin-left: -4px;
+    margin-right: 2px; }
 
 #headers {
   border-top: 1px solid grey;
   background: #2b0905;
   color: white; }
+
+.header {
+  cursor: pointer; }
+  .header .dropdown-icon {
+    opacity: 0;
+    margin-bottom: -4px; }
+  .header:hover .dropdown-icon {
+    opacity: .5; }
+  .header .sorting .dropdown-icon {
+    opacity: 1; }
+
+#pagination {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey; }
+  #pagination .glyphicon {
+    cursor: pointer; }
+  #pagination .disabled {
+    cursor: default;
+    color: grey; }
 
 #totals {
   padding: 2px 0;

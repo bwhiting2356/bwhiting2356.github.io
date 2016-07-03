@@ -170,11 +170,33 @@ main {
     .section-heading {
         width: 100px;
         display: inline-block;
+        float: left;
+        margin-top: 9px;
     }
     .inputs {
         width: calc(100% - 110px);
         display: inline-block;
     }
+
+    .checkbox {
+        input[type="checkbox"] {
+            margin-left: 0;
+            margin-top: 2px;
+        }
+    }   
+}
+
+#companies {
+    float: left;
+    display: inline-block;
+    width: 40%;
+}
+
+#time-period {
+    float: right;
+    display: inline-block;
+    width: 40%;
+
 }
 
 #chart {
@@ -216,12 +238,16 @@ main {
         text-overflow: ellipsis;
     }
     .date {
+        text-align: right;
+        margin-right: 10px;
         display: inline-block;
-        width: 100px;
+        width: 110px;
         height: 50px;
         line-height: 50px;
     }
     .time {
+        text-align: right;
+        margin-right: 10px;
         display: inline-block;
         width: 150px;        
         height: 50px;
@@ -230,6 +256,7 @@ main {
 
     .comma {
         margin-left: -4px;
+        margin-right: 2px;
     }
 }
 
@@ -239,8 +266,38 @@ main {
     color: white;
 }
 
-#totals {
+.header {
+    cursor: pointer;
+    .dropdown-icon {
+        opacity: 0;
+        margin-bottom: -4px;
+    }
+    &:hover .dropdown-icon {
+        opacity: .5;
+    }
+    .sorting .dropdown-icon {
+        opacity: 1;
+    }
+}
 
+#pagination {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+
+    .glyphicon {
+        cursor: pointer;
+    }
+    .disabled {
+        cursor: default;
+        color: grey;
+    }
+}
+
+#totals {
     padding: 2px 0;
     border-bottom: 1px solid grey;
     border-right: 1px solid grey;
