@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <a href="#about"><h1>Brendan Whiting</h1></a>
+      <h1>Brendan Whiting</h1>
     </header>
     <nav>
       <a href="#portfolio-header"><div>Web Developer</div></a><a href="#shows-header"><div>Musician</div></a>
@@ -18,7 +18,7 @@
       <div class="container">
         <!-- about -->
         <div id="about">
-          <img src="img/headshot.jpg" id="headshot"><div id="lead">
+          <img src="img/headshot.jpg" id="headshot" alt="Brendan's face"><div id="lead">
             <h2>Hi, I'm Brendan.</h2>
             <p> I'm from <a href="https://www.google.com/maps/place/Kamloops,+BC,+Canada/" target="_blank">Kamloops, BC, Canada</a>. I've spent the last few years working as a <a href="#shows-header">musician for Broadway shows</a>, but I'm plotting a new career as a <a href="#portfolio-header">web developer</a>. I like <a href="https://www.google.com/maps/dir/Santa+Monica,+CA/San+Diego,+CA/@33.3674756,-118.3906506,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x80c2a4cec2910019:0xb4170ab5ff23f5ab!2m2!1d-118.4911912!2d34.0194543!1m5!1m1!1s0x80d9530fad921e4b:0xd3a21fdfd15df79!2m2!1d-117.1610838!2d32.715738!3e1" target="_blank">cycling</a>, <a href="" target="_blank">yoga</a>, <a href="#skills">binge learning</a>, <a href="https://en.wikipedia.org/wiki/Breaking_Bad" target="_blank">antihero dramas</a>, and <a href="">other people's dogs</a>.</p>
           </div>
@@ -36,8 +36,8 @@
             <h4>{{ project.organization }}</h4>
             <h4>{{ project.project }}</h4>
             <div class="img-container">
-              <a href="{{ project.url }}" target="_blank">
-                <img class="project-screenshot" data-ng-src="img/project-thumbnails/{{ project.screenshot }}">
+              <a data-ng-href="{{ project.url }}" target="_blank">
+                <img class="project-screenshot" alt="{{ project.name }}" src="#" data-ng-src="img/project-thumbnails/{{ project.screenshot }}">
               </a>
             </div>
             <p class="description">{{ project.description }}</p>
@@ -50,170 +50,204 @@
         <div class="thick-border"></div>
         <h2 id="skills">My Online Learning</h2>
         <div id="skills-container" data-ng-controller="SkillsController">
-          <form id="form">
-            <fieldset id="search-terms">
-              <div class="form-group">
-                <label for='search' class="section-heading">Search:</label>
-                <input id='search' class="inputs form-control" type='search' data-ng-model="raw_search" ng-change="update_search_terms()">
-              </div>
-            </fieldset>
-            <div class="companies_period clearfix">
-              <fieldset id="companies">
-                <div class="section-heading">Companies:</div>
-                <div class="inputs">
-                  <div class="checkbox">
-                    <input id='check-all' type='checkbox' 
-                      data-ng-model="check_all" data-ng-change="update_inputs()">
-                    <label for='check-all'>All</label>
-                  </div>
-                  <div class="checkbox">
-                    <input id='treehouse' class="company-input" type='checkbox'
-                      data-ng-model="search.companies.treehouse" 
-                      data-ng-change="update_check_all(treehouse)">
-                    <label for='treehouse'>Treehouse</label>
-                  </div>
-                  <div class="checkbox">
-                    <input id='codeschool' class="checkbox company-input" type='checkbox' 
-                      data-ng-model="search.companies['code school']" 
-                      data-ng-change="update_check_all(codeschool)">
-                    <label for='codeschool'>Code School</label>
-                  </div>
-                  <div class="checkbox">
-                    <input id='codecademy' class="checkbox company-input" type='checkbox' 
-                      data-ng-model="search.companies.codecademy" 
-                      data-ng-change="update_check_all(codecademy)">
-                    <label for='codecademy'>Codecademy</label>
-                  </div>
-                  <div class="checkbox">
-                    <input id='lynda' class="checkbox company-input" type='checkbox' 
-                      data-ng-model="search.companies.lynda" 
-                      data-ng-change="update_check_all(lynda)">
-                    <label for='lynda'>Lynda</label>
-                  </div>
-                  <div class="checkbox">
-                    <input id='smartly' class="checkbox company-input" type='checkbox' 
-                      data-ng-model="search.companies.smartly" 
-                      data-ng-change="update_check_all(smartly)">
-                    <label for='smartly'>Smartly</label>
-                  </div>
-                </div>
-              </fieldset>
-              <fieldset id="time-period">
-                <div class="section-heading">Time Period:</div>
-                <div class="inputs">
-                  <div class="form-group">
-                    <label for='start'>Start</label>
-                    <input class="form-control" id='start' type='date' data-ng-model="search.start_date" 
-                    data-ng-change="update_date_constraint()">  
-                  </div>
-                  <div class="form-group">
-                    <label for='end'>End</label>
-                    <input class="form-control" id='end' type='date' data-ng-model="search.end_date"
-                    data-ng-change="update_date_constraint()">
-                  </div>
-                </div>
-              </fieldset>
-            </div>
-          </form>
-          <div id="timeline" class="clearfix">
-            <h3>Timeline</h3>
-            <div id="chart-container">
-            </div>
-            <div class="time-axis">
-              <span class="start">{{ search.start_date | date }}</span>
-              <span class="end">{{ search.end_date | date }}</span>
-            </div>
+          <div id="results-header">
+            <h3>Courses</h3>
           </div>
           <div id="headers">
             <div class="logo"></div>
             <div class="company header" data-ng-click="sort_courses('company')">Company
-              <img class="dropdown-icon" src="../img/icons/dropdown.svg"></div>
-            <div class="title header" data-ng-click="sort_courses('title')">Course Title
-              <img class="dropdown-icon" src="../img/icons/dropdown.svg"></div>
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg"></div>
+            <div class="title header" data-ng-click="sort_courses('title')">Title
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg"></div>
             <div class="date header" data-ng-click="sort_courses('date')">
-              <img class="dropdown-icon" src="../img/icons/dropdown.svg">Date Taken
-              </div>
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg">Date
+            </div>
             <div class="time header" data-ng-click="sort_courses('time')">
-              <img class="dropdown-icon" src="../img/icons/dropdown.svg">Course Length
-              </div>
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg">Length
+            </div>
           </div>
           <div id="results">
             <div class="course_result" data-ng-repeat="course in paginated_results[current_page]">
-              <a ng-href="{{ course.url }}" target="_blank">
-              <img class="logo" data-ng-src="{{ course.company | makeCompanyIntoLogoUrl }}">
+              <a data-ng-href="{{ course.url }}" target="_blank">
+              <img class="logo" src="#" alt="{{ course.company }} logo" data-ng-src="{{ course.company | makeCompanyIntoLogoUrl }}">
               <div class="company">{{ course.company }}</div>
               <div class="title">{{ course.title}}</div>
-              <div class="date">{{ course.date | date}}</div>
+              <div class="date">
+                  <span class="small_screen">{{ course.date | date:'M/yy'}}</span>
+                  <span class="large_screen">{{ course.date | date }}</span>
+              </div>
               <div class="time">
                 <span class="hours" data-ng-show="course.time.hours">{{course.time.hours}}
-                  <ng-pluralize count="course.time.hours"
-                                when="{'1': 'hour',
-                                        'other': 'hours'}">
-                  </ng-pluralize>
+                  <span class="small_screen">h</span>
+                  <span class="large_screen">
+                    <ng-pluralize count="course.time.hours"
+                                  when="{'1': 'hour',
+                                          'other': 'hours'}">
+                    </ng-pluralize>
+                  </span>
                 </span>
                 <span class="comma" data-ng-show="course.time.hours && course.time.minutes">,</span>
                 <span class="minutes" data-ng-show="course.time.minutes">{{course.time.minutes}}
-                  <ng-pluralize count="course.time.minutes"
-                                when="{'1': 'minute',
-                                        'other': 'minutes'}">
-                  </ng-pluralize>
+                  <span class="small_screen">m</span>
+                  <span class="large_screen">
+                    <ng-pluralize count="course.time.minutes"
+                                  when="{'1': 'minute',
+                                          'other': 'minutes'}">
+                    </ng-pluralize>
+                  </span>
                 </span>
               </div>
               </a>
             </div>
           </div>
           <div id="pagination">
-            <span id="left-arrow" data-ng-click="decrement_page()" ng-class="{disabled: !can_decrement}" 
+            <span id="left-arrow" data-ng-click="decrement_page()" data-ng-class="{disabled: !can_decrement}" 
             class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            </span>
             <span id="page-count">Page {{ current_page + 1 }} of {{ paginated_results.length }}</span>
-            <span id="right-arrow" data-ng-click="increment_page()" ng-class="{disabled: !can_increment}"
+            <span id="right-arrow" data-ng-click="increment_page()" data-ng-class="{disabled: !can_increment}"
             class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           </div>
           <div id="totals" data-ng-show="course_results">
             <div class="total_courses">Total Courses: {{ course_results.length }} </div>
             <div class="total_time">
-                <span class="hours" data-ng-show="courses_total_time.hours">Total Time: {{courses_total_time.hours}}
+              <span class="hours" data-ng-show="courses_total_time.hours">Total Time: {{courses_total_time.hours}}
+                <span class="small_screen">h</span>
+                <span class="large_screen">
                   <ng-pluralize count="courses_total_time.hours"
                                 when="{'1': 'hour',
                                         'other': 'hours'}">
                   </ng-pluralize>
                 </span>
-                <span class="comma" data-ng-show="courses_total_time.hours && 
-                                                  courses_total_time.minutes">,</span>
-                <span class="minutes" data-ng-show="courses_total_time.minutes">{{courses_total_time.minutes}}
+              </span>
+              <span class="comma" data-ng-show="courses_total_time.hours && 
+                                                courses_total_time.minutes">,</span>
+              <span class="minutes" data-ng-show="courses_total_time.minutes">{{courses_total_time.minutes}}
+                <span class="small_screen">m</span>
+                <span class="large_screen">
                   <ng-pluralize count="courses_total_time.minutes"
                                 when="{'1': 'minute',
                                         'other': 'minutes'}">
                   </ng-pluralize>
                 </span>
+              </span>
+            </div>
+          </div>
+        <form id="form">
+          <fieldset id="search-terms">
+            <div class="form-group">
+              <label for='search' class="section-heading">Search Courses:</label>
+              <input id='search' class="inputs form-control" type='search' data-ng-model="raw_search" data-ng-change="update_search_terms()">
+            </div>
+          </fieldset>
+          <div class="companies_period clearfix">
+            <fieldset id="companies">
+              <div class="section-heading">Companies:</div>
+              <div class="inputs">
+                <div class="checkbox">
+                  <input id='check-all' type='checkbox' 
+                    data-ng-model="check_all" data-ng-change="update_inputs()">
+                  <label for='check-all'>All</label>
+                </div>
+                <div class="checkbox">
+                  <input id='treehouse' class="company-input" type='checkbox'
+                    data-ng-model="search.companies.treehouse" 
+                    data-ng-change="update_check_all(treehouse)">
+                  <label for='treehouse'>Treehouse</label>
+                </div>
+                <div class="checkbox">
+                  <input id='codeschool' class="checkbox company-input" type='checkbox' 
+                    data-ng-model="search.companies['code school']" 
+                    data-ng-change="update_check_all(codeschool)">
+                  <label for='codeschool'>Code School</label>
+                </div>
+                <div class="checkbox">
+                  <input id='codecademy' class="checkbox company-input" type='checkbox' 
+                    data-ng-model="search.companies.codecademy" 
+                    data-ng-change="update_check_all(codecademy)">
+                  <label for='codecademy'>Codecademy</label>
+                </div>
+                <div class="checkbox">
+                  <input id='lynda' class="checkbox company-input" type='checkbox' 
+                    data-ng-model="search.companies.lynda" 
+                    data-ng-change="update_check_all(lynda)">
+                  <label for='lynda'>Lynda</label>
+                </div>
+                <div class="checkbox">
+                  <input id='smartly' class="checkbox company-input" type='checkbox' 
+                    data-ng-model="search.companies.smartly" 
+                    data-ng-change="update_check_all(smartly)">
+                  <label for='smartly'>Smartly</label>
+                </div>
               </div>
+            </fieldset>
+            <fieldset id="time-period">
+              <div class="section-heading">Time Period:</div>
+              <div class="inputs">
+                <div class="form-group">
+                  <label for='start'>Start</label>
+                  <input class="form-control" id='start' type='date' data-ng-model="search.start_date" 
+                  data-ng-change="update_date_constraint()">  
+                </div>
+                <div class="form-group">
+                  <label for='end'>End</label>
+                  <input class="form-control" id='end' type='date' data-ng-model="search.end_date"
+                  data-ng-change="update_date_constraint()">
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </form>
+        <div id="timeline" class="clearfix">
+          <h3>Timeline</h3>
+          <div id="chart-container">
+          </div>
+          <div class="time-axis">
+            <div class="start">{{ earliest_course_date | date }}</div>
+            <div class="line"></div>
+            <div class="end">{{ latest_course_date | date }}</div>
           </div>
         </div>
+      </div>
+      <!-- /skills -->
 
-        <!-- /skills -->
-
-        <!-- musician -->
-        <div class="thin-border"></div>
-        <div class="thick-border"></div>
-        <h2 id="shows-header">Broadway Keyboards, Music Transcription</h2>
-        <div id="shows" data-ng-controller="ShowController">
-          <div class="show" data-ng-repeat="show in shows">
-            <h3>{{ show.name }}</h3>
-            <h4>{{ show.type }}</h4>
-            <a href="{{ show.url }}" target="_blank">
-              <img class="show-logo" data-ng-src="img/show-thumbnails/{{ show.logo }}">
-            </a>
-            <ul>
-              <li class="item" data-ng-repeat="item in show.items">{{ item }}</li>
-            </ul>
-          </div>
+      <!-- musician -->
+      <div class="thin-border"></div>
+      <div class="thick-border"></div>
+      <h2 id="shows-header">Broadway Keyboards, Music Transcription</h2>
+      <div id="shows" data-ng-controller="ShowController">
+        <div class="show" data-ng-repeat="show in shows">
+          <h3>{{ show.name }}</h3>
+          <h4>{{ show.type }}</h4>
+          <a data-ng-href="{{ show.url }}" target="_blank">
+            <img class="show-logo" alt="{{ show.name }} logo" src="#" data-ng-src="img/show-thumbnails/{{ show.logo }}">
+          </a>
+          <ul>
+            <li class="item" data-ng-repeat="item in show.items">{{ item }}</li>
+          </ul>
         </div>
-        <!-- /musician -->
+      </div>
+      <!-- /musician -->
       </div>
     </main>
     <footer>
-      <img src="">
+      <div class="social-icons">
+        <a href="">
+          <svg id="facebook" enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029 c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77 L40.43,21.739z"/>
+          </svg>
+        </a>
+        <a href="mailto:example@example.com">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 469.2 469.2" style="enable-background:new 0 0 469.2 469.2;" xml:space="preserve">
+          <g>
+            <path d="M22.202,77.023C25.888,75.657,29.832,74.8,34,74.8h401.2c4.168,0,8.112,0.857,11.798,2.224L267.24,246.364   c-18.299,17.251-46.975,17.251-65.28,0L22.202,77.023z M464.188,377.944c3.114-5.135,5.012-11.098,5.012-17.544V108.8   c0-4.569-0.932-8.915-2.57-12.899L298.411,254.367L464.188,377.944z M283.2,268.464c-13.961,11.961-31.253,18.027-48.6,18.027   c-17.347,0-34.64-6.06-48.6-18.027L20.692,391.687c4.094,1.741,8.582,2.714,13.308,2.714h401.2c4.726,0,9.214-0.973,13.308-2.714   L283.2,268.464z M2.571,95.9C0.932,99.885,0,104.23,0,108.8V360.4c0,6.446,1.897,12.409,5.012,17.544l165.777-123.577L2.571,95.9z"/>
+          </svg>
+        </a>
+        <a href="">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+            <path d="M32,3.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6C25.8,0.8,24,0,22.2,0 c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5C10.3,7.8,5.5,5.2,2.2,1.2c-0.6,1-0.9,2.1-0.9,3.3c0,2.3,1.2,4.3,2.9,5.5 c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,3,10.1,3c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C30,5.6,31.1,4.4,32,3.1z"/>
+          </svg>
+        </a>
+      </div>
     </footer>
     <script src="js/angular.min.js"></script>
     <script src="js/d3.v3.min.js"></script>
