@@ -18,10 +18,9 @@ bApp.filter('makeCompanyIntoLogoUrl', function() {
   }
 });
 
-bApp.controller('SkillsController', function SkillsController($scope, $http) {
+bApp.controller('SkillsController', function SkillsController($scope, $http, $window) {
     $http.get('/data/courses.json').then(function(response) {
         $scope.all_courses = response.data;
-        $scope.filter_courses();
         $scope.update_check_all();
     });
 
@@ -76,7 +75,6 @@ bApp.controller('SkillsController', function SkillsController($scope, $http) {
         var course_date = new Date(course.date);  
         var within_date_constraints = ((course_date >= $scope.search.start_date) 
                                        && (course_date <= $scope.search.end_date));
-        // console.log(course);
         return matching_company && matching_search_terms && within_date_constraints;
     }
 
@@ -112,6 +110,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http) {
 
     $scope.filter_courses = function() {
       $scope.course_results = $scope.all_courses.filter($scope.matching_course);
+      $scope.draw_chart($scope.course_results);
       $scope.paginate_results();
       $scope.compute_total_time();
     }
@@ -191,4 +190,39 @@ bApp.controller('SkillsController', function SkillsController($scope, $http) {
       $scope.filter_courses();
     }
 
+    $scope.draw_chart = function(data) {
+      var chart_container = document.getElementById("chart-container");
+      chart_container.innerHTML = '';
+      var width = chart_container.offsetWidth;
+
+      var chart = d3.select("#chart-container")
+                      .append('svg')
+                      .attr('id', 'chart')
+                      .attr('height', 10)
+                      .attr('width', width);
+
+      var x = d3.time.scale().range([0, width]);
+
+      x.domain(d3.extent(data, function(d) { return new Date(d.date); }));
+
+      lines = chart.selectAll('line')
+         .data(data)
+         .enter()
+        .append('line');
+
+      lines.attr('x1', function(d) {
+        return x(new Date(d.date));
+      })
+      .attr('x2', function(d) {
+        return x(new Date(d.date));
+      })
+      .attr('y1', '1')
+      .attr('y2', '10')
+      .style('stroke', '#000000')
+      .style('stroke-width', '4')
+    };
+
+    angular.element($window).bind('resize', function(){
+      $scope.draw_chart($scope.course_results);
+    });
 });

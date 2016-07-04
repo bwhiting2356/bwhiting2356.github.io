@@ -113,7 +113,14 @@
               </fieldset>
             </div>
           </form>
-          <div id="chart">
+          <div id="timeline" class="clearfix">
+            <h3>Timeline</h3>
+            <div id="chart-container">
+            </div>
+            <div class="time-axis">
+              <span class="start">{{ search.start_date | date }}</span>
+              <span class="end">{{ search.end_date | date }}</span>
+            </div>
           </div>
           <div id="headers">
             <div class="logo"></div>

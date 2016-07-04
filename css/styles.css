@@ -54,11 +54,11 @@ a {
 
 body {
   font-family: Railway;
-  background: #efefed; }
+  background: white; }
 
 header {
   text-align: center;
-  background: #2b0905;
+  background: #0b0f18;
   color: white;
   margin: 0;
   height: 60px;
@@ -80,9 +80,14 @@ nav {
     box-sizing: border-box;
     font-size: 1.1em; }
     nav div:nth-child(odd) {
-      border-right: 1px #2b0905 solid; }
+      border-right: 1px #0b0f18 solid; }
   nav .active div {
     background: #747865; }
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+  opacity: .75; }
 
 main {
   margin: 0; }
@@ -123,7 +128,7 @@ main {
   width: 200px;
   padding: 5px;
   margin: 10px;
-  background: #e8e8e4;
+  background: #f8f8f7;
   display: inline-block; }
   .show h3,
   .project h3 {
@@ -178,11 +183,6 @@ main {
   display: inline-block;
   width: 40%; }
 
-#chart {
-  height: 400px;
-  width: 100%;
-  background: lightgreen; }
-
 .course_result a,
 #headers {
   display: flex;
@@ -236,7 +236,7 @@ main {
 
 #headers {
   border-top: 1px solid grey;
-  background: #2b0905;
+  background: #0b0f18;
   color: white; }
 
 .header {
@@ -272,7 +272,9 @@ main {
     display: inline-block;
     width: 300px;
     height: 50px;
-    line-height: 50px; }
+    line-height: 50px;
+    text-align: right;
+    margin-right: 10px; }
   #totals .total_courses {
     margin-left: 10px;
     display: inline-block;
@@ -282,20 +284,10 @@ main {
   #totals .comma {
     margin-left: -4px; }
 
-/***** CHART STUFF *****/
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges; }
-
-.dot {
-  stroke: #000; }
-
-.tooltip {
-  position: absolute;
-  width: 200px;
-  height: 28px;
-  pointer-events: none; }
+/***** TIMELINE STUFF *****/
+#timeline .start {
+  float: left; }
+#timeline .end {
+  float: right; }
 
 /*# sourceMappingURL=styles.css.map */
