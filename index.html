@@ -27,6 +27,8 @@
         <!-- /about -->
 
         <!-- portfolio -->
+        <div class="thin-border"></div>
+        <div class="thick-border"></div>
         <h2 id="portfolio-header">Front-End Portfolio</h2>
         <div id="projects" data-ng-controller="ProjectController">
           <div class="project" data-ng-repeat="project in projects">
@@ -44,7 +46,9 @@
         <!-- /portfolio -->
 
         <!-- skills -->
-        <h2 id="skills">Online Learning</h2>
+        <div class="thin-border"></div>
+        <div class="thick-border"></div>
+        <h2 id="skills">My Online Learning</h2>
         <div id="skills-container" data-ng-controller="SkillsController">
           <form id="form">
             <fieldset id="search-terms">
@@ -95,19 +99,17 @@
                 </div>
               </fieldset>
               <fieldset id="time-period">
-                <div class="form-group">
-                  <div class="section-heading">Time Period:</div>
-                  <div class="inputs">
-                    <div class="form-group">
-                      <label for='start'>Start</label>
-                      <input class="form-control" id='start' type='date' data-ng-model="search.start_date" 
-                      data-ng-change="update_date_constraint()">  
-                    </div>
-                    <div class="form-group">
-                      <label for='end'>End</label>
-                      <input class="form-control" id='end' type='date' data-ng-model="search.end_date"
-                      data-ng-change="update_date_constraint()">
-                    </div>
+                <div class="section-heading">Time Period:</div>
+                <div class="inputs">
+                  <div class="form-group">
+                    <label for='start'>Start</label>
+                    <input class="form-control" id='start' type='date' data-ng-model="search.start_date" 
+                    data-ng-change="update_date_constraint()">  
+                  </div>
+                  <div class="form-group">
+                    <label for='end'>End</label>
+                    <input class="form-control" id='end' type='date' data-ng-model="search.end_date"
+                    data-ng-change="update_date_constraint()">
                   </div>
                 </div>
               </fieldset>
@@ -192,6 +194,8 @@
         <!-- /skills -->
 
         <!-- musician -->
+        <div class="thin-border"></div>
+        <div class="thick-border"></div>
         <h2 id="shows-header">Broadway Keyboards, Music Transcription</h2>
         <div id="shows" data-ng-controller="ShowController">
           <div class="show" data-ng-repeat="show in shows">

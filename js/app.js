@@ -15,7 +15,7 @@ bApp.controller('ProjectController', function ProjectController($scope, $http) {
 bApp.filter('makeCompanyIntoLogoUrl', function() {
   return function(company) {
     return "img/company-logos/" + company.toLowerCase().replace(" ", "_") + ".png";
-  }
+  };
 });
 
 bApp.controller('SkillsController', function SkillsController($scope, $http, $window) {
@@ -54,18 +54,18 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
       }
       $scope.course_results = $scope.course_results.sort(compare);
       $scope.paginate_results();
-    }
+    };
 
     $scope.matching_course = function(course) {
         // test matching companies
         var companies = $scope.make_company_list();
-        var matching_company = companies.indexOf(course.company.toLowerCase()) > -1
+        var matching_company = (companies.indexOf(course.company.toLowerCase()) > -1);
 
         // test matching search terms
         var matching_search_terms = true; // default to true if there are no search terms
         if ($scope.search.terms) {
           matching_search_terms = false;
-          for (term in $scope.search.terms) {
+          for (var term in $scope.search.terms) {
             if (course.title.toLowerCase().indexOf($scope.search.terms[term]) > -1) {
               matching_search_terms = true;
             }
@@ -73,15 +73,14 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
         }
         // test date constraints
         var course_date = new Date(course.date);  
-        var within_date_constraints = ((course_date >= $scope.search.start_date) 
-                                       && (course_date <= $scope.search.end_date));
+        var within_date_constraints = ((course_date >= $scope.search.start_date) && (course_date <= $scope.search.end_date));
         return matching_company && matching_search_terms && within_date_constraints;
-    }
+    };
 
     $scope.update_pagination_constraints = function() {
         $scope.can_increment = ($scope.current_page +1 !=  $scope.paginated_results.length);
         $scope.can_decrement = ($scope.current_page !== 0);
-    }
+    };
 
     $scope.paginate_results = function() {
         var new_array = [];
@@ -92,32 +91,32 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
         $scope.paginated_results = new_array;
         $scope.current_page = 0;
         $scope.update_pagination_constraints();
-    }
+    };
 
     $scope.increment_page = function() {
       if ($scope.can_increment) {
         $scope.current_page += 1;
         $scope.update_pagination_constraints();
       }
-    }
+    };
 
     $scope.decrement_page = function() {
       if ($scope.can_decrement)  {
         $scope.current_page -= 1;
         $scope.update_pagination_constraints();
       }
-    }
+    };
 
     $scope.filter_courses = function() {
       $scope.course_results = $scope.all_courses.filter($scope.matching_course);
       $scope.draw_chart($scope.course_results);
       $scope.paginate_results();
       $scope.compute_total_time();
-    }
+    };
 
     $scope.compute_total_time = function() {
       var total_hours = 0;
-      var total_minutes = 0
+      var total_minutes = 0;
       for (var i = 0; i < $scope.course_results.length; i++) {
         total_hours += $scope.course_results[i].time.hours;
         total_minutes += $scope.course_results[i].time.minutes;
@@ -127,7 +126,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
       $scope.courses_total_time = {
         hours: final_hours,
         minutes: final_minutes
-      }
+      };
     };
 
     // setting defaults
@@ -145,13 +144,13 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
 
     $scope.make_company_list = function() {
       var companies = [];
-      for (company in $scope.search.companies) {
+      for (var company in $scope.search.companies) {
         if ($scope.search.companies[company] === true) {
           companies.push(company);
         }
       }
       return companies;
-    }
+    };
 
     // convert raw input into trimmed and split array of search terms
     $scope.update_search_terms = function() {
@@ -188,7 +187,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
 
     $scope.update_date_constraint = function() {
       $scope.filter_courses();
-    }
+    };
 
     $scope.draw_chart = function(data) {
       var chart_container = document.getElementById("chart-container");
@@ -205,7 +204,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
 
       x.domain(d3.extent(data, function(d) { return new Date(d.date); }));
 
-      lines = chart.selectAll('line')
+      var lines = chart.selectAll('line')
          .data(data)
          .enter()
         .append('line');
@@ -219,7 +218,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
       .attr('y1', '1')
       .attr('y2', '10')
       .style('stroke', '#000000')
-      .style('stroke-width', '4')
+      .style('stroke-width', '4');
     };
 
     angular.element($window).bind('resize', function(){

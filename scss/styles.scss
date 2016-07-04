@@ -11,7 +11,7 @@ $brown: #74180E;
 $blue: #384D7A;
 
 $color-header-background: darken($blue, 28%);
-$color-nav-bg:  #595C4E;
+$color-nav-bg: #595C4E;
 $color-nav-bg-active: lighten($color-nav-bg, 10%);
 $color-main-bg: lighten($color-nav-bg, 70%);
 
@@ -19,8 +19,21 @@ $color-item-border: grey;
 
 $color-main-link: darken($blue, 10%);
 
-
 /********  GLOBAL STYLES  ********/
+
+.thin-border {
+    margin-top: 15px;
+    width: 100%;
+    height: 1.2px;
+    background: black;
+}
+
+.thick-border {
+    margin-top: 2px;
+    width: 100%;
+    height: 2.5px;
+    background: black;
+}
 
 a {
     text-decoration: none;
@@ -32,7 +45,6 @@ body {
     font-family: Railway;
     background: $color-main-bg;
 }
-
 
 header {
     text-align: center;
@@ -85,7 +97,7 @@ main {
         color: $color-main-link;
     }
     h2 {
-        padding: 20px 0 10px 0;  
+        padding: 15px 0;  
         font-size: 1.2em;
         font-weight: bold;
     }
@@ -102,17 +114,15 @@ main {
 /*****  ABOUT  *****/
 
 #headshot {
-    display: inline-block;
-    width: 30%;
-    float: left;    
+    width: 200px;
+    margin: auto;       
+    display: block; 
 }
 
+
 #lead {
-    display: inline-block;
-    width: 70%;
+    padding: 10px 0;
     line-height: 1.70em;
-    padding-left: 40px;
-    box-sizing: border-box;
 
     h2 {
         font-size: 1.2em;
@@ -121,15 +131,33 @@ main {
     }
 }
 
+@media (min-width: 680px) {
+    #headshot {
+        display: inline-block;
+        width: 30%;
+        float: left;    
+    }
+
+    #lead {
+        padding-top: 0;
+        padding-left: 40px;
+        padding-bottom: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 70%;
+    }
+}   
+
+
 /*****  MUSICIAN, PORTFOLIO  *****/
 
 .show,
 .project {
-    border: 1px solid $color-item-border;
-    width: 200px;
-    padding: 5px;
+    width: 210px;
+    padding: 10px;
+    border-radius: 5px;
     margin: 10px;
-    background: darken($color-main-bg, 3%);
+    background: lighten($color-nav-bg, 60%);
 
     display: inline-block;
     h3 {
@@ -137,13 +165,18 @@ main {
     }
 
     img {
+        border: 1px solid $color-item-border;
         box-sizing: border-box;
         width: 100%;
         transition: opacity .2s;
-        margin: 5px 0;
+        margin: 12px 0;
         &:hover {
             opacity: .9;
         }
+    }
+
+    .description {
+        text-align: center;
     }
 }
 
@@ -172,38 +205,55 @@ main {
     margin: 0 auto;
 }
 
-#form {
-    .section-heading {
-        width: 100px;
-        display: inline-block;
-        float: left;
-        margin-top: 9px;
-    }
-    .inputs {
-        width: calc(100% - 110px);
-        display: inline-block;
-    }
+    /*****  FORM  *****/
 
-    .checkbox {
-        input[type="checkbox"] {
-            margin-left: 0;
-            margin-top: 2px;
+    #form {
+        padding: 10px;
+        border-radius: 8px;
+        background: lighten($color-nav-bg, 60%);
+        margin-bottom: 10px;
+        .section-heading {
+            font-weight: bold;
+            width: 100px;
+            display: inline-block;
+            float: left;
+            margin-top: 9px;
         }
+        .inputs {
+            width: calc(100% - 110px);
+            display: inline-block;
+        }
+
+        .checkbox {
+            input[type="checkbox"] {
+                margin-left: 0;
+                margin-top: 2px;
+            }
+        }   
     }   
-}
 
-#companies {
-    float: left;
-    display: inline-block;
-    width: 40%;
-}
+    #companies_period {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-#time-period {
-    float: right;
-    display: inline-block;
-    width: 40%;
+    #companies {
+        float: left;
+        display: inline-block;
+        min-width: 230px;
+        // width: 40%;
+    }
 
-}
+    #time-period {
+        float: left;
+        display: inline-block;
+        // width: 50%;
+        min-width: 255px;
+
+        .inputs {
+            margin-top: 9px;
+        }
+    }
 
 .course_result a,
 #headers {
