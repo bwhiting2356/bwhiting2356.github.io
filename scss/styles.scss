@@ -183,6 +183,18 @@ main {
     .item {
         text-align: center;
     }
+
+    .preview,
+    .source_code {
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .description {
+        margin-top: 5px;
+    }
 }
 
 #shows, 

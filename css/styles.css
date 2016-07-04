@@ -174,6 +174,17 @@ main {
   .project .description,
   .project .item {
     text-align: center; }
+  .show .preview,
+  .show .source_code,
+  .project .preview,
+  .project .source_code {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline; }
+  .show .description,
+  .project .description {
+    margin-top: 5px; }
 
 #shows,
 #projects {

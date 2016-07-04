@@ -36,10 +36,13 @@
             <h4>{{ project.organization }}</h4>
             <h4>{{ project.project }}</h4>
             <div class="img-container">
-              <a data-ng-href="{{ project.url }}" target="_blank">
+              <a data-ng-href="{{ project.preview_url }}" target="_blank">
                 <img class="project-screenshot" alt="{{ project.name }}" src="#" data-ng-src="img/project-thumbnails/{{ project.screenshot }}">
               </a>
             </div>
+            <a class="preview" data-ng-href="{{ project.preview_url }}" target="_blank">Preview</a>
+            <a class="source_code" data-ng-href="{{ project.source_code }}" target="_blank">Source Code</a>
+
             <p class="description">{{ project.description }}</p>
           </div>
         </div>
