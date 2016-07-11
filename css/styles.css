@@ -268,6 +268,11 @@ main {
 #chart {
   padding: 2px; }
 
+.line {
+  stroke: #000000;
+  stroke-width: 4;
+  cursor: pointer; }
+
 /*****  RESULTS  *****/
 #results-header {
   background: #efefed;
@@ -400,14 +405,13 @@ main {
   #totals .comma {
     margin-left: -4px; }
 
-@media screen and (max-width: 700px) {
-  .course_result a .small_screen,
-  #totals .small_screen {
-    display: inline;
-    margin-left: -4px; }
-  .course_result a .large_screen,
-  #totals .large_screen {
-    display: none; } }
+.course_result a .small_screen,
+#totals .small_screen {
+  display: inline;
+  margin-left: -4px; }
+.course_result a .large_screen,
+#totals .large_screen {
+  display: none; }
 @media screen and (min-width: 701px) {
   .course_result a .small_screen,
   #totals .small_screen {

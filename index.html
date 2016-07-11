@@ -103,7 +103,7 @@
               </a>
             </div>
           </div>
-          <div id="pagination">
+          <div id="pagination" data-ng-show="paginated_results.length">
             <span id="left-arrow" data-ng-click="decrement_page()" data-ng-class="{disabled: !can_decrement}" 
             class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span id="page-count">Page {{ current_page + 1 }} of {{ paginated_results.length }}</span>
@@ -135,6 +135,16 @@
               </span>
             </div>
           </div>
+        <div id="timeline" class="clearfix" data-ng-show="paginated_results.length">
+          <h3>Timeline</h3>
+          <div id="chart-container">
+          </div>
+          <div class="time-axis">
+            <div class="start">{{ earliest_course_date | date }}</div>
+            <div class="line"></div>
+            <div class="end">{{ latest_course_date | date }}</div>
+          </div>
+        </div>
         <form id="form">
           <fieldset id="search-terms">
             <div class="form-group">
@@ -200,16 +210,6 @@
             </fieldset>
           </div>
         </form>
-        <div id="timeline" class="clearfix">
-          <h3>Timeline</h3>
-          <div id="chart-container">
-          </div>
-          <div class="time-axis">
-            <div class="start">{{ earliest_course_date | date }}</div>
-            <div class="line"></div>
-            <div class="end">{{ latest_course_date | date }}</div>
-          </div>
-        </div>
       </div>
       <!-- /skills -->
 

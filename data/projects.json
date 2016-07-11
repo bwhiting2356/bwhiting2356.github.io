@@ -4,54 +4,53 @@
         "organization": "Treehouse",
         "project": "Techdegree Project",
         "screenshot": "online_registration_form.png",
-        "preview_url": "http://htmlpreview.github.io/?https://github.com/bwhiting2356/online-registration-form/blob/master/index.html",
+        "preview_url": "http://bwhiting2356.github.io/online-registration-form/",
         "source_code": "https://github.com/bwhiting2356/online-registration-form",
-        "description": "Online registration form with custom form elements, responsive design"
+        "description": "Newsletter registration form with mobile-first design. Implemented custom checkbox, radio button design to match design specs."
     },
     {
         "name": "Performance Optimization",
         "organization": "Treehouse",
         "project": "Techdegree Project",
         "screenshot": "performance_optimization.png",
-        "preview_url": "http://htmlpreview.github.io/?https://github.com/bwhiting2356/performance-optimization-v2/blob/master/public/index.html",
+        "preview_url": "http://bwhiting2356.github.io/performance-optimization-v2/public/",
         "source_code": "https://github.com/bwhiting2356/performance-optimization-v2",
-        "description": "Improved performace with gulp plugins: minify, concat, inline-img"
+        "description": "Improved performance by reducing http requests and optimizing file sizes.  Used gulp plugins gulp-minify, gulp-concat, gulp-inline-img and svg images."
     },
     {
-        "name": "SVG Update",
+        "name": "Web App Dashboard",
         "organization": "Treehouse",
         "project": "Techdegree Project",
-        "screenshot": "svg_update.png",
+        "screenshot": "web_app.png",
         "preview_url": "http://htmlpreview.github.io/?https://github.com/bwhiting2356/svg-update/blob/master/index.html",
-        "source_code": "https://github.com/bwhiting2356/svg-update",
-        "description": "Substituted png images for svgs, added responsive design"
+        "source_code": "https://github.com/bwhiting2356/web-app",
+        "description": "Built front-end for mock web application using mobile-first design, Angular 1.4.8, Chart.js, localStorage"
     },
     {
         "name": "Interactive Video Player",
         "organization": "Treehouse",
         "project": "Techdegree Project",
         "screenshot": "interactive_video_player.png",
-        "preview_url": "http://htmlpreview.github.io/?https://github.com/bwhiting2356/interactive-video-player/blob/master/index.html",
+        "preview_url": "https://bwhiting2356.github.io/interactive-video-player/",
         "source_code": "https://github.com/bwhiting2356/interactive-video-player",
-        "description": "Video player with custom controls, highlighted clickable text"
+        "description": "Video player with custom controls that show on hover. Transcript is synced with captions, with highlighted clickable sections, which is parsed from a VTT file to allow it to be a reusable module."
     },
     {
         "name": "Public Api",
         "organization": "Treehouse",
         "project": "Techdegree Project",
         "screenshot": "public_api.png",
-        "preview_url": "http://htmlpreview.github.io/?https://github.com/bwhiting2356/public-api/blob/master/index.html",
+        "preview_url": "http://bwhiting2356.github.io/public-api/",
         "source_code": "https://github.com/bwhiting2356/public-api",
-        "description": "Practice using a public API"
+        "description": "Used AJAX to pull JSON data from a public API. Also used CSS flexbox and a custom modal window."
     },
     {
-        "name": "Interactive Photo Gallery",
-        "organization": "Treehouse",
-        "project": "Techdegree Project",
-        "screenshot": "interactive_photo_gallery.png",
-        "preview_url": "http://htmlpreview.github.io/?https://github.com/bwhiting2356/interactive-photo-gallery/blob/master/index.html",
-        "source_code": "https://github.com/bwhiting2356/interactive-photo-gallery",
-        "description": "Photo gallery with search and custom modal window"
-
+        "name": "Ideal Karma",
+        "organization": "Startupbootcamp",
+        "project": "Fintech Hackathon",
+        "screenshot": "ideal_karma.png",
+        "preview_url": "http://bwhiting2356.github.io/ideal_karma/src/",
+        "source_code": "https://github.com/bwhiting2356/ideal_karma",
+        "description": "Front-end for hackathon collaboration. Built according to design specs, including Chart.js graphs and jQuery animations"
     }
 ]
