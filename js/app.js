@@ -274,6 +274,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
 
     $scope.showHighlightedCourse = function(d) {
       $scope.current_page = d.page;
+      $scope.update_pagination_constraints();
       d.highlighted = true;
       $scope.$digest();
     };
