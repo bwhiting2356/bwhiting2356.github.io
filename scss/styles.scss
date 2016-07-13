@@ -10,6 +10,12 @@ $red: #74180E;
 $brown: #74180E;
 $blue: #384D7A;
 
+$smartly: #E54558;
+$treehouse: #5FCF80;
+$lynda: #FFB900;
+$code_school: #4CADC1;
+$codecademy: #0F3C56;
+
 $color-header-background: darken($blue, 28%);
 $color-nav-bg: #595C4E;
 $color-nav-bg-active: lighten($color-nav-bg, 10%);
@@ -275,26 +281,54 @@ main {
 
     #timeline {
         color: darken($blue, 50%);
+        padding: 10px;
+        border-radius: 8px;
+        background: lighten($color-nav-bg, 60%);
+        margin-bottom: 10px;
+
+        #chart {
+            padding: 2px;
+        }
+        
         h3 {
             text-align: center;
             font-weight: bold;
             margin-bottom: 8px;
         }
-        padding: 10px;
-        border-radius: 8px;
-        background: lighten($color-nav-bg, 60%);
-        margin-bottom: 10px;
+
         .start {
             display: inline-block;
             width: 90px;
         }
 
         .line {
+            stroke-width: 4;
+            cursor: pointer;
             display: inline-block;
             background: black;
             width: calc(100% - 190px);
             margin: 0 auto 4px auto;
             height: 1px;
+        }
+
+        .smartly {
+            stroke: $smartly;
+        }
+
+        .treehouse {
+            stroke: $treehouse;
+        }
+
+        .lynda {
+            stroke: $lynda;
+        }
+
+        .code_school {
+            stroke: $code_school;
+        }
+
+        .codecademy {
+            stroke: $codecademy;
         }
 
         .end {
@@ -305,16 +339,6 @@ main {
         }
     }
 
-    #chart {
-        padding: 2px;
-    }
-
-
-    .line {
-        stroke: #000000;
-        stroke-width: 4;
-        cursor: pointer;
-    }
     /*****  RESULTS  *****/
 
     #results-header {
@@ -490,6 +514,9 @@ main {
         }
     }
 
+    .highlighted a {
+        background: darken($color-main-bg, 10%);
+    }
 
 /********  FOOTER STYLES  ********/
 

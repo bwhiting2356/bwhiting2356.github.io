@@ -70,9 +70,15 @@
             </div>
           </div>
           <div id="results">
-            <div class="course_result" data-ng-repeat="course in paginated_results[current_page]">
+            <div class="course_result" 
+              data-ng-repeat="course in paginated_results[current_page] track by $index"
+              data-ng-class="{highlighted: course.highlighted}">
               <a data-ng-href="{{ course.url }}" target="_blank">
-              <img class="logo" src="#" alt="{{ course.company }} logo" data-ng-src="{{ course.company | makeCompanyIntoLogoUrl }}">
+              <img class="logo" 
+                   src="#" 
+                   alt="{{ course.company }} logo" 
+                   data-ng-src="{{ course.company | makeCompanyIntoLogoUrl }}"
+                   data-ng-show="{{ course.company.length > 0 }}">
               <div class="company">{{ course.company }}</div>
               <div class="title">{{ course.title}}</div>
               <div class="date">
@@ -106,7 +112,7 @@
           <div id="pagination" data-ng-show="paginated_results.length">
             <span id="left-arrow" data-ng-click="decrement_page()" data-ng-class="{disabled: !can_decrement}" 
             class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span id="page-count">Page {{ current_page + 1 }} of {{ paginated_results.length }}</span>
+            <span ng-model="current_page" id="page-count">Page {{ current_page + 1 }} of {{ paginated_results.length }}</span>
             <span id="right-arrow" data-ng-click="increment_page()" data-ng-class="{disabled: !can_increment}"
             class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           </div>
