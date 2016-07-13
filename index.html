@@ -53,112 +53,26 @@
         <div class="thick-border"></div>
         <h2 id="skills">My Online Learning</h2>
         <div id="skills-container" data-ng-controller="SkillsController">
-          <div id="results-header">
-            <h3>Courses</h3>
-          </div>
-          <div id="headers">
-            <div class="logo"></div>
-            <div class="company header" data-ng-click="sort_courses('company')">Company
-              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg"></div>
-            <div class="title header" data-ng-click="sort_courses('title')">Title
-              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg"></div>
-            <div class="date header" data-ng-click="sort_courses('date')">
-              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg">Date
-            </div>
-            <div class="time header" data-ng-click="sort_courses('time')">
-              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg">Length
-            </div>
-          </div>
-          <div id="results">
-            <div class="course_result" 
-              data-ng-repeat="course in paginated_results[current_page] track by $index"
-              data-ng-class="{highlighted: course.highlighted}">
-              <a data-ng-href="{{ course.url }}" target="_blank">
-              <img class="logo" 
-                   src="#" 
-                   alt="{{ course.company }} logo" 
-                   data-ng-src="{{ course.company | makeCompanyIntoLogoUrl }}"
-                   data-ng-show="{{ course.company.length > 0 }}">
-              <div class="company">{{ course.company }}</div>
-              <div class="title">{{ course.title}}</div>
-              <div class="date">
-                  <span class="small_screen">{{ course.date | date:'M/yy'}}</span>
-                  <span class="large_screen">{{ course.date | date }}</span>
-              </div>
-              <div class="time">
-                <span class="hours" data-ng-show="course.time.hours">{{course.time.hours}}
-                  <span class="small_screen">h</span>
-                  <span class="large_screen">
-                    <ng-pluralize count="course.time.hours"
-                                  when="{'1': 'hour',
-                                          'other': 'hours'}">
-                    </ng-pluralize>
-                  </span>
-                </span>
-                <span class="comma" data-ng-show="course.time.hours && course.time.minutes">,</span>
-                <span class="minutes" data-ng-show="course.time.minutes">{{course.time.minutes}}
-                  <span class="small_screen">m</span>
-                  <span class="large_screen">
-                    <ng-pluralize count="course.time.minutes"
-                                  when="{'1': 'minute',
-                                          'other': 'minutes'}">
-                    </ng-pluralize>
-                  </span>
-                </span>
-              </div>
-              </a>
-            </div>
-          </div>
-          <div id="pagination" data-ng-show="paginated_results.length">
-            <span id="left-arrow" data-ng-click="decrement_page()" data-ng-class="{disabled: !can_decrement}" 
-            class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span ng-model="current_page" id="page-count">Page {{ current_page + 1 }} of {{ paginated_results.length }}</span>
-            <span id="right-arrow" data-ng-click="increment_page()" data-ng-class="{disabled: !can_increment}"
-            class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          </div>
-          <div id="totals" data-ng-show="course_results">
-            <div class="total_courses">Total Courses: {{ course_results.length }} </div>
-            <div class="total_time">
-              <span class="hours" data-ng-show="courses_total_time.hours">Total Time: {{courses_total_time.hours}}
-                <span class="small_screen">h</span>
-                <span class="large_screen">
-                  <ng-pluralize count="courses_total_time.hours"
-                                when="{'1': 'hour',
-                                        'other': 'hours'}">
-                  </ng-pluralize>
-                </span>
-              </span>
-              <span class="comma" data-ng-show="courses_total_time.hours && 
-                                                courses_total_time.minutes">,</span>
-              <span class="minutes" data-ng-show="courses_total_time.minutes">{{courses_total_time.minutes}}
-                <span class="small_screen">m</span>
-                <span class="large_screen">
-                  <ng-pluralize count="courses_total_time.minutes"
-                                when="{'1': 'minute',
-                                        'other': 'minutes'}">
-                  </ng-pluralize>
-                </span>
-              </span>
-            </div>
-          </div>
-        <div id="timeline" class="clearfix" data-ng-show="paginated_results.length">
-          <h3>Timeline</h3>
-          <div id="chart-container">
-          </div>
-          <div class="time-axis">
-            <div class="start">{{ earliest_course_date | date }}</div>
-            <div class="line"></div>
-            <div class="end">{{ latest_course_date | date }}</div>
-          </div>
-        </div>
-        <form id="form">
+          <form id="form">
           <fieldset id="search-terms">
             <div class="form-group">
               <label for='search' class="section-heading">Search Courses:</label>
-              <input id='search' class="inputs form-control" type='search' data-ng-model="raw_search" data-ng-change="update_search_terms()">
+              <input id='search' class="inputs form-control" type='search' 
+              data-ng-model="raw_search" data-ng-change="update_search_terms()">
+            </div>
+            <div class="dropdown-toggle">
+              <svg id="dropdown-icon" 
+                width="30" height="18" 
+                viewBox="0 0 18 18" 
+                xmlns="http://www.w3.org/2000/svg" 
+                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                data-ng-click="showing_expanded_search = !showing_expanded_search"
+                data-ng-class="{flip: showing_expanded_search}">
+                <path d="M5 7l3.75 4.5 3.75-4.5h-7.5" sketch:type="MSShapeGroup"/>
+              </svg>
             </div>
           </fieldset>
-          <div class="companies_period clearfix">
+          <div class="companies_period clearfix" data-ng-show="showing_expanded_search">
             <fieldset id="companies">
               <div class="section-heading">Companies:</div>
               <div class="inputs">
@@ -216,6 +130,107 @@
             </fieldset>
           </div>
         </form>
+          <div id="results-header">
+            <h3>Courses</h3>
+          </div>
+          <div id="headers">
+            <div class="logo"></div>
+            <div class="company header" data-ng-click="sort_courses('company')">Company
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg"></div>
+            <div class="title header" data-ng-click="sort_courses('title')">Title
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg"></div>
+            <div class="date header" data-ng-click="sort_courses('date')">
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg">Date
+            </div>
+            <div class="time header" data-ng-click="sort_courses('time')">
+              <img class="dropdown-icon" alt="" src="../img/icons/dropdown.svg">Length
+            </div>
+          </div>
+          <div id="results">
+            <div class="course_result" 
+              data-ng-repeat="course in paginated_results[current_page] track by $index"
+              data-ng-class="{highlighted: course.highlighted}">
+              <a data-ng-href="{{ course.url }}" target="_blank">
+              <img class="logo" 
+                   src="#" 
+                   alt="{{ course.company }} logo" 
+                   data-ng-src="{{ course.company | makeCompanyIntoLogoUrl }}"
+                   data-ng-show="{{ course.company.length > 0 }}">
+              <div class="company">{{ course.company }}</div>
+              <div class="title">{{ course.title}}</div>
+              <div class="date">
+                  <span class="small_screen">{{ course.date | date:'M/yy'}}</span>
+                  <span class="large_screen">{{ course.date | date }}</span>
+              </div>
+              <div class="time">
+                <span class="hours" data-ng-show="course.time.hours">{{course.time.hours}}
+                  <span class="small_screen">h</span>
+                  <span class="large_screen">
+                    <ng-pluralize count="course.time.hours"
+                                  when="{'1': 'hour',
+                                          'other': 'hours'}">
+                    </ng-pluralize>
+                  </span>
+                </span>
+                <span class="comma" data-ng-show="course.time.hours && course.time.minutes">,</span>
+                <span class="minutes" data-ng-show="course.time.minutes">{{course.time.minutes}}
+                  <span class="small_screen">m</span>
+                  <span class="large_screen">
+                    <ng-pluralize count="course.time.minutes"
+                                  when="{'1': 'minute',
+                                          'other': 'minutes'}">
+                    </ng-pluralize>
+                  </span>
+                </span>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div id="pagination">
+            <span data-ng-show="courses_returned">
+              <span id="left-arrow" data-ng-click="decrement_page()" data-ng-class="{disabled: !can_decrement}" 
+              class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span ng-model="current_page" id="page-count">Page {{ current_page + 1 }} of {{ paginated_results.length }}</span>
+              <span id="right-arrow" data-ng-click="increment_page()" data-ng-class="{disabled: !can_increment}"
+              class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </span>
+          </div>
+          <div id="totals" data-ng-show="course_results">
+            <div class="total_courses">Total Courses: {{ course_results.length }} </div>
+            <div class="total_time">
+              <span class="hours" data-ng-show="courses_total_time.hours">Total Time: {{courses_total_time.hours}}
+                <span class="small_screen">h</span>
+                <span class="large_screen">
+                  <ng-pluralize count="courses_total_time.hours"
+                                when="{'1': 'hour',
+                                        'other': 'hours'}">
+                  </ng-pluralize>
+                </span>
+              </span>
+              <span class="comma" data-ng-show="courses_total_time.hours && 
+                                                courses_total_time.minutes">,</span>
+              <span class="minutes" data-ng-show="courses_total_time.minutes">{{courses_total_time.minutes}}
+                <span class="small_screen">m</span>
+                <span class="large_screen">
+                  <ng-pluralize count="courses_total_time.minutes"
+                                when="{'1': 'minute',
+                                        'other': 'minutes'}">
+                  </ng-pluralize>
+                </span>
+              </span>
+            </div>
+          </div>
+        <div id="timeline" class="clearfix" data-ng-show="paginated_results.length">
+          <h3>Timeline</h3>
+          <div id="chart-container">
+          </div>
+          <div class="time-axis">
+            <div class="start">{{ earliest_course_date | date }}</div>
+            <div class="line"></div>
+            <div class="end">{{ latest_course_date | date }}</div>
+          </div>
+        </div>
+        
       </div>
       <!-- /skills -->
 

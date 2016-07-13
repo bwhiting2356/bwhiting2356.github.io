@@ -112,22 +112,22 @@
 
           if (array_copy.length > 0) {
             while (array_copy.length > 0) {
-              var section = array_copy.splice(0,5)
-              while (section.length < 5) {
+              var section = array_copy.splice(0,rows_per_page)
+              while (section.length < rows_per_page) {
                 section.push(dummy_course);
               }
               new_array.push(section);
             }
+            $scope.courses_returned = true;
           } else {
-            console.log('hi hi');
-            var section = [dummy_course, dummy_course, dummy_course, dummy_course, dummy_course];
+            var section = [];
+            for (var i = 0; i < rows_per_page; i++) {
+              section.push(dummy_course);
+            }
             new_array.push(section);
+            $scope.courses_returned = false;
           }
-          console.log(new_array);
-          console.log($scope.current_page);
-
           $scope.paginated_results = new_array;
-
           $scope.current_page = 0;
           $scope.update_pagination_constraints();
       };

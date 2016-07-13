@@ -223,6 +223,22 @@ main {
     margin-left: 0;
     margin-top: 2px; }
 
+#search-terms {
+  position: relative; }
+
+.dropdown-toggle #dropdown-icon {
+  fill: #000000;
+  position: absolute;
+  right: 3px;
+  top: 7px;
+  cursor: pointer;
+  opacity: 0; }
+  .form-group:hover + .dropdown-toggle #dropdown-icon, .dropdown-toggle #dropdown-icon:hover {
+    opacity: .6; }
+  .dropdown-toggle #dropdown-icon.flip {
+    transform: rotate(180deg);
+    opacity: .6; }
+
 #companies_period {
   display: flex;
   flex-wrap: wrap; }

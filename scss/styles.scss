@@ -255,6 +255,32 @@ main {
         }   
     }   
 
+    #search-terms {
+        position: relative;
+    }
+
+    .dropdown-toggle #dropdown-icon {
+        fill: #000000;
+        position: absolute;
+        right: 3px;
+        top: 7px;
+        cursor: pointer;
+        opacity: 0;
+
+        .form-group:hover + &,
+        &:hover {
+            opacity: .6;
+        }   
+
+        &.flip {
+            transform: rotate(180deg);
+            opacity: .6;
+        }
+    }
+
+
+
+
     #companies_period {
         display: flex;
         flex-wrap: wrap;
