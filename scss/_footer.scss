@@ -1,0 +1,23 @@
+/********  FOOTER STYLES  ********/
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: $color-header-background;
+
+    .social-icons {
+        padding-top: 15px;
+        width: 170px;
+        margin: 0 auto;
+    }
+
+    svg {
+        display: inline-bloxk;
+        height: 20px;
+        width: 50px;
+        fill: white;
+        &:hover {
+            opacity: .75;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+    /*****  TIMELINE  *****/
+
+    #timeline {
+        color: darken($blue, 50%);
+        padding: 10px;
+        border-radius: 8px;
+        background: lighten($color-nav-bg, 60%);
+        margin-bottom: 10px;
+
+        #chart {
+            padding: 2px;
+        }
+        
+        h3 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .start {
+            display: inline-block;
+            width: 90px;
+        }
+
+        .line {
+            stroke-width: 5;
+            cursor: pointer;
+            display: inline-block;
+            background: black;
+            width: calc(100% - 190px);
+            margin: 0 auto 4px auto;
+            height: 1px;
+        }
+
+        .smartly {
+            stroke: $smartly;
+        }
+
+        .treehouse {
+            stroke: $treehouse;
+        }
+
+        .lynda {
+            stroke: $lynda;
+        }
+
+        .code_school {
+            stroke: $code_school;
+        }
+
+        .codecademy {
+            stroke: $codecademy;
+        }
+
+        .end {
+            float: right;
+            text-align: right;
+            display: inline-block;
+            width: 90px;
+        }
+    }

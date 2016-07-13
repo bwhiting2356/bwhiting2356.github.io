@@ -1,0 +1,63 @@
+/*****  MUSICIAN, PORTFOLIO  *****/
+
+.show,
+.project {
+    width: 210px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background: lighten($color-nav-bg, 60%);
+    display: inline-block;
+
+    h3 {
+        font-weight: bold;
+    }
+
+    img {
+        border: 1px solid $color-item-border;
+        box-sizing: border-box;
+        width: 100%;
+        transition: opacity .2s;
+        margin: 12px 0;
+        &:hover {
+            opacity: .9;
+        }
+    }
+
+    h3, h4,
+    .description,
+    .item {
+        text-align: center;
+    }
+
+    .preview,
+    .source_code {
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .description {
+        margin-top: 5px;
+    }
+}
+
+#shows, 
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+#about {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+#portfolio {
+    border-bottom: 1px solid black;
+}

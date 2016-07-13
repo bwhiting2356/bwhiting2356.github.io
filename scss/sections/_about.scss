@@ -1,0 +1,43 @@
+/*****  ABOUT  *****/
+
+#about {
+    a {
+        font-weight: bold;
+    }
+}
+
+#headshot {
+    width: 200px;
+    margin: auto;       
+    display: block; 
+}
+
+
+#lead {
+    padding: 10px 0;
+    line-height: 1.70em;
+    font-size: 1.1em;
+
+    h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        font-weight: 500;  
+    }
+}
+
+@media (min-width: 680px) {
+    #headshot {
+        display: inline-block;
+        width: 30%;
+        float: left;    
+    }
+
+    #lead {
+        padding-top: 0;
+        padding-left: 40px;
+        padding-bottom: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 70%;
+    }
+} 

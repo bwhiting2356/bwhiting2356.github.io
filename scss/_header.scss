@@ -1,0 +1,46 @@
+/********  HEADER STYLES  ********/
+
+header, nav {
+    text-align: center;
+    color: white;
+    margin: 0;
+    a {
+        color: white;
+        &:hover {
+            color: white;
+            text-decoration: none;
+            opacity: .75;
+        }
+        &:visited {
+            color: white;  
+            text-decoration: none;
+        }
+    }
+}
+
+header {
+    background: $color-header-background;
+    height: 60px;
+    line-height: 60px;
+    h1 {
+
+        font-size: 1.8em;
+    }
+}
+
+nav {
+    background: $color-nav-bg;
+    height: 50px;
+    line-height: 50px;
+    div {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 1.1em;
+
+        &:nth-child(odd) {
+            border-right: 1px $color-header-background solid;
+        }
+    }
+}
