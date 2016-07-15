@@ -147,6 +147,11 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
 
     $scope.filter_courses = function() {
       $scope.course_results = $scope.all_courses.filter($scope.matching_course);
+      console.log('course results');
+      console.log($scope.course_results);
+      console.log('all courses');
+      console.log($scope.all_courses);
+
       $scope.sort_courses('date');
 
       if ($scope.course_results.length > 0) {
@@ -181,7 +186,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
     // setting defaults
     $scope.search = {
         start_date: new Date("2014-09-04"),
-        end_date: new Date("2016-07-04"),
+        end_date: new Date(),
         companies: {
             'treehouse': true,
             'code school': true,
@@ -190,6 +195,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
             'smartly': true,
         }
     };
+    console.log(new Date());
 
     $scope.make_company_list = function() {
       var companies = [];
