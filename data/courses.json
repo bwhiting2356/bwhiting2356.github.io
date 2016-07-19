@@ -1260,6 +1260,16 @@
       "url":"https://teamtreehouse.com/library/bootstrap-4-basics"
    },
    {  
+      "title":"Build a REST API With Express",
+      "date":"2016-07-19T20:00:24.000Z",
+      "time":{  
+         "hours":3,
+         "minutes":41
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/build-a-rest-api-with-express"
+   },
+   {  
       "title":"Human Resources in the On-Demand Economy",
       "date":"2016-06-19T16:14:13.000Z",
       "time":{  
