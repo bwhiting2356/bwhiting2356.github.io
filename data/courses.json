@@ -1240,6 +1240,16 @@
       "url":"https://teamtreehouse.com/library/javascript-unit-testing"
    },
    {  
+      "title":"Web Typography",
+      "date":"2016-07-20T20:00:24.000Z",
+      "time":{  
+         "hours":4,
+         "minutes":20
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/web-typography"
+   },
+   {  
       "title":"Website Optimization",
       "date":"2016-07-16T20:00:24.000Z",
       "time":{  
