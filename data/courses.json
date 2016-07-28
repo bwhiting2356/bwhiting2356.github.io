@@ -1300,6 +1300,16 @@
       "url":"https://teamtreehouse.com/library/build-a-rest-api-with-express"
    },
    {  
+      "title":"Database Foundations",
+      "date":"2016-07-28T10:00:24.000Z",
+      "time":{  
+         "hours":5,
+         "minutes":53
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/database-foundations"
+   },
+   {  
       "title":"Human Resources in the On-Demand Economy",
       "date":"2016-06-19T16:14:13.000Z",
       "time":{  
@@ -1480,8 +1490,8 @@
       "url":"https://smart.ly/course/learn-macroeconomics-i-fundamentals--smartly/f6296448-533f-456f-bdc3-1b0c83cf039f"
    },
    {  
-      "title":"A/B Testing For Marketers",
-      "date":"2016-06-28T16:14:13.000Z",
+      "title":"AB Testing For Marketers",
+      "date":"2016-07-28T00:14:13.000Z",
       "time":{  
          "hours":0,
          "minutes":33
