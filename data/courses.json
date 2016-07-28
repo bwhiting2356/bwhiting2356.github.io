@@ -1250,6 +1250,16 @@
       "url":"https://teamtreehouse.com/library/web-typography"
    },
    {  
+      "title":"Logo Design Basics",
+      "date":"2016-07-21T20:00:24.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":30
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/logo-design-basics"
+   },
+   {  
       "title":"Website Optimization",
       "date":"2016-07-16T20:00:24.000Z",
       "time":{  
@@ -1468,6 +1478,16 @@
       },
       "company":"Smartly",
       "url":"https://smart.ly/course/learn-macroeconomics-i-fundamentals--smartly/f6296448-533f-456f-bdc3-1b0c83cf039f"
+   },
+   {  
+      "title":"A/B Testing For Marketers",
+      "date":"2016-06-28T16:14:13.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":33
+      },
+      "company":"Smartly",
+      "url":"https://smart.ly/course/a-b-testing-for-marketers/1deeff68-ed22-4399-a967-e6689c0aed3f"
    },
    {  
       "title":"Marketing Mechanics",
