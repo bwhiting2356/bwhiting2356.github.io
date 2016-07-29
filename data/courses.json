@@ -1270,6 +1270,16 @@
       "url":"https://teamtreehouse.com/library/website-optimization"
    },
    {  
+      "title":"GitHub Basics",
+      "date":"2016-07-28T20:00:24.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":19
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/github-basics"
+   },
+   {  
       "title":"Introduction to HTML and CSS",
       "date":"2016-07-19T20:00:24.000Z",
       "time":{  
