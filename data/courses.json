@@ -1260,6 +1260,16 @@
       "url":"https://teamtreehouse.com/library/javascript-unit-testing"
    },
    {  
+      "title":"CSS Layout Techniques",
+      "date":"2016-08-01T20:00:24.000Z",
+      "time":{  
+         "hours":3,
+         "minutes":11
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/css-layout-techniques"
+   },
+   {  
       "title":"Web Typography",
       "date":"2016-07-20T20:00:24.000Z",
       "time":{  
