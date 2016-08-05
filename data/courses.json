@@ -1329,6 +1329,16 @@
       "company":"Treehouse",
       "url":"https://teamtreehouse.com/library/bootstrap-4-basics"
    },
+      {  
+      "title":"User Authentication With Express and Mongo",
+      "date":"2016-08-04T20:00:24.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":17
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/user-authentication-with-express-and-mongo"
+   },
    {  
       "title":"Build a REST API With Express",
       "date":"2016-07-19T20:00:24.000Z",
