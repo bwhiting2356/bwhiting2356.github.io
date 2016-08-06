@@ -1,12 +1,21 @@
 [
     {
+        "name": "Web App Dashboard",
+        "organization": "Treehouse",
+        "project": "Techdegree Project",
+        "screenshot": "web_app.png",
+        "preview_url": "http://bwhiting2356.github.io/web-app/",
+        "source_code": "https://github.com/bwhiting2356/web-app",
+        "description": "Built front-end for mock web application using mobile-first design, Angular 1.4.8, Chart.js, localStorage"
+    },
+    {
         "name": "Online Registration Form",
         "organization": "Treehouse",
         "project": "Techdegree Project",
         "screenshot": "online_registration_form.png",
         "preview_url": "http://bwhiting2356.github.io/online-registration-form/",
         "source_code": "https://github.com/bwhiting2356/online-registration-form",
-        "description": "Newsletter registration form with mobile-first design. Implemented custom checkboxes and radio buttons to match design specs."
+        "description": "Newsletter registration form with mobile-first design. Used custom checkboxes and radio buttons to match design specs."
     },
     {
         "name": "Performance Optimization",
@@ -16,15 +25,6 @@
         "preview_url": "http://bwhiting2356.github.io/performance-optimization-v2/public/",
         "source_code": "https://github.com/bwhiting2356/performance-optimization-v2",
         "description": "Improved performance by reducing HTTP requests and optimizing file sizes.  Used gulp plugins gulp-minify, gulp-concat and gulp-inline-img as well as svg images."
-    },
-    {
-        "name": "Web App Dashboard",
-        "organization": "Treehouse",
-        "project": "Techdegree Project",
-        "screenshot": "web_app.png",
-        "preview_url": "http://bwhiting2356.github.io/web-app/",
-        "source_code": "https://github.com/bwhiting2356/web-app",
-        "description": "Built front-end for mock web application using mobile-first design, Angular 1.4.8, Chart.js, localStorage"
     },
     {
         "name": "Interactive Video Player",
