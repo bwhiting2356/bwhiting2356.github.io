@@ -10,6 +10,16 @@
       "url":"https://www.codecademy.com/en/skills/make-an-interactive-website"
    },
    {  
+      "title":"Introduction to React.js: Part I",
+      "date":"2016-08-10T00:14:24.000Z",
+      "time":{  
+         "hours":4,
+         "minutes":0
+      },
+      "company":"Codecademy",
+      "url":"https://www.codecademy.com/en/skills/react-101"
+   },
+   {  
       "title":"Learn Sass",
       "date":"2016-07-30T00:14:24.000Z",
       "time":{  
