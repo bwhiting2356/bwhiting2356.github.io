@@ -11,13 +11,43 @@
    },
    {  
       "title":"Introduction to React.js: Part I",
-      "date":"2016-08-10T00:14:24.000Z",
+      "date":"2016-08-09T00:14:24.000Z",
       "time":{  
          "hours":4,
          "minutes":0
       },
       "company":"Codecademy",
-      "url":"https://www.codecademy.com/en/skills/react-101"
+      "url":"https://www.codecademy.com/learn/react-101"
+   },
+   {  
+      "title":"Introduction to React.js: Part II",
+      "date":"2016-08-24T00:14:24.000Z",
+      "time":{  
+         "hours":4,
+         "minutes":0
+      },
+      "company":"Codecademy",
+      "url":"https://www.codecademy.com/learn/react-102"
+   },
+   {  
+      "title":"SQL: Table Transformation",
+      "date":"2016-08-10T00:14:24.000Z",
+      "time":{  
+         "hours":3,
+         "minutes":0
+      },
+      "company":"Codecademy",
+      "url":"https://www.codecademy.com/learn/sql-table-transformation"
+   },
+   {  
+      "title":"SQL: Analyzing Business Metrics",
+      "date":"2016-08-11T00:14:24.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":0
+      },
+      "company":"Codecademy",
+      "url":"https://www.codecademy.com/learn/sql-analyzing-business-metrics"
    },
    {  
       "title":"Learn Sass",
@@ -778,6 +808,16 @@
       },
       "company":"Treehouse",
       "url":"https://teamtreehouse.com/library/how-the-web-works"
+   },
+   {  
+      "title":"Java Objects",
+      "date":"2016-08-18T01:33:07.000Z",
+      "time":{  
+         "hours":3,
+         "minutes":34
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/java-objects"
    },
    {  
       "title":"Computer Basics",
@@ -1968,5 +2008,155 @@
       },
       "company":"Smartly",
       "url":"https://smart.ly/course/strategy-ii-corporate-level-strategy/6084cb67-e2da-4e78-8bfc-27083d93eb16"
+   },
+   {  
+      "title":"D3.js",
+      "date":"2016-09-17T15:02:41.000Z",
+      "time":{  
+         "hours":3,
+         "minutes":0
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/d3js"
+   },
+   {  
+      "title":"Querying Relational Databases",
+      "date":"2016-09-13T04:30:32.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":25
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/querying-relational-databases"
+   },
+   {  
+      "title":"Introducing ES2015",
+      "date":"2016-09-07T22:43:30.000Z",
+      "time":{  
+         "hours":1,
+         "minutes":52
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/introducing-es2015"
+   },
+   {  
+      "title":"React Basics",
+      "date":"2016-09-07T07:03:38.000Z",
+      "time":{  
+         "hours":3,
+         "minutes":3
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/react-basics"
+   },
+   {  
+      "title":"Sketch Basics",
+      "date":"2016-09-04T09:14:12.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":1
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/sketch-basics"
+   },
+   {  
+      "title":"Java Data Structures",
+      "date":"2016-08-28T10:02:50.000Z",
+      "time":{  
+         "hours":5,
+         "minutes":4
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/java-data-structures"
+   },
+   {  
+      "title":"Java Objects",
+      "date":"2016-08-19T11:00:25.000Z",
+      "time":{  
+         "hours":3,
+         "minutes":34
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/java-objects"
+   },
+   {  
+      "title":"Foundations of Color",
+      "date":"2016-09-13T11:00:25.000Z",
+      "time":{  
+         "hours":1,
+         "minutes":57
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Design-Color-tutorials/Foundations-Color/120601-2.html"
+   },
+   {  
+      "title":"Introduction to Data Governance",
+      "date":"2016-09-11T11:00:25.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":41
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Enterprise-Content-Management-tutorials/Introduction-Data-Governance/501135-2.html"
+   },
+   {  
+      "title":"Data Science and Analytics Career Paths and Certifications",
+      "date":"2016-09-11T11:00:25.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":54
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Business-Intelligence-tutorials/Data-Science-Analytics-Career-Paths-Certifications/475941-2.html"
+   },
+   {  
+      "title":"UX Design Techniques: Creating Scenarios and Storyboards",
+      "date":"2016-09-03T11:00:25.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":20
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Web-User-Experience-tutorials/UX-Design-Techniques-Creating-Scenarios-Storyboards/148581-2.html"
+   },
+   {  
+      "title":"Foundations of Design Research",
+      "date":"2016-08-31T11:00:25.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":57
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Design-Foundations-tutorials/Foundations-Design-Research/182890-2.html"
+   },
+   {  
+      "title":"UX Design Techniques: Creating Personas",
+      "date":"2016-08-31T11:00:25.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":26
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Web-User-Experience-tutorials/UX-Design-Techniques-Creating-Personas/144082-2.html"
+   },
+   {  
+      "title":"Becoming a Web Developer: Full Stack vs Front End",
+      "date":"2016-08-31T11:00:25.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":40
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Web-tutorials/Becoming-Web-Developer-Full-Stack-vs-Front-End/483022-2.html"
+   },
+   {  
+      "title":"Planning a Career in User Experience",
+      "date":"2016-08-29T11:00:25.000Z",
+      "time":{  
+         "hours":0,
+         "minutes":52
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/User-Experience-tutorials/Planning-Career-User-Experience/432558-2.html"
    }
 ]
