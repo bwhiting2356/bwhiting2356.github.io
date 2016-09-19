@@ -62,14 +62,14 @@ header, nav {
       text-decoration: none; }
 
 header {
-  background: #0b0f18;
+  background: black;
   height: 60px;
   line-height: 60px; }
   header h1 {
     font-size: 1.8em; }
 
 nav {
-  background: #595C4E;
+  background: #404040;
   height: 50px;
   line-height: 50px; }
   nav div {
@@ -79,19 +79,20 @@ nav {
     box-sizing: border-box;
     font-size: 1.1em; }
     nav div:nth-child(odd) {
-      border-right: 1px #0b0f18 solid; }
+      border-right: 1px black solid; }
 
 /********  FOOTER STYLES  ********/
 footer {
   width: 100%;
   height: 50px;
-  background: #0b0f18; }
-  footer .social-icons {
-    padding-top: 15px;
-    width: 170px;
-    margin: 0 auto; }
+  background: black; }
+  footer .email-container {
+    margin-top: 50px;
+    height: 20px;
+    width: 50px;
+    margin: 10px auto 0 auto; }
   footer svg {
-    display: inline-bloxk;
+    margin-top: 15px;
     height: 20px;
     width: 50px;
     fill: white; }
@@ -106,11 +107,11 @@ footer {
       width: 80%; } }
 
 main {
-  background: white;
+  background: #fcfcfc;
   margin: 0;
   padding-top: 30px; }
   main a {
-    color: #283757; }
+    color: #262626; }
   main h2 {
     padding: 15px 0;
     font-size: 1.2em;
@@ -131,6 +132,12 @@ main {
 /*****  ABOUT  *****/
 #about a {
   font-weight: bold; }
+#about p {
+  margin-bottom: 12px; }
+  #about p:first-child {
+    font-size: 1.4em; }
+#about .show-style {
+  font-style: italic; }
 
 #headshot {
   width: 200px;
@@ -167,7 +174,7 @@ main {
 #form {
   padding: 10px;
   border-radius: 8px;
-  background: #efefed;
+  background: #e8e8e8;
   margin-bottom: 10px; }
   #form .section-heading {
     font-weight: bold;
@@ -219,7 +226,7 @@ main {
   color: black;
   padding: 10px;
   border-radius: 8px;
-  background: #efefed;
+  background: #e8e8e8;
   margin-bottom: 10px; }
   #timeline #chart {
     padding: 2px; }
@@ -256,7 +263,7 @@ main {
 
 /*****  RESULTS  *****/
 #results-header {
-  background: #efefed;
+  background: #e8e8e8;
   border-radius: 8px 8px 0 0;
   margin-bottom: 0;
   padding: 10px; }
@@ -330,8 +337,8 @@ main {
 
 #headers {
   border-top: 1px solid grey;
-  background: #1b253b;
-  border-color: #1b253b;
+  background: #1a1a1a;
+  border-color: #1a1a1a;
   color: white; }
 
 .header {
@@ -349,7 +356,7 @@ main {
     opacity: 1; }
 
 #pagination {
-  background: #1b253b;
+  background: #1a1a1a;
   color: white;
   height: 35px;
   line-height: 35px;
@@ -362,7 +369,7 @@ main {
 
 #totals {
   padding: 2px 0;
-  background: #efefed;
+  background: #d9d9d9;
   border-radius: 0 0 8px 8px;
   font-weight: bold;
   margin-bottom: 10px; }
@@ -402,7 +409,7 @@ main {
     display: inline; } }
 
 .highlighted a {
-  background: #e7e8e3; }
+  background: #e3e3e3; }
 
 /*****  MUSICIAN, PORTFOLIO  *****/
 .show,
@@ -411,14 +418,14 @@ main {
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
-  background: #efefed;
+  background: #e8e8e8;
   display: inline-block; }
   .show h3,
   .project h3 {
     font-weight: bold; }
   .show img,
   .project img {
-    border: 1px solid grey;
+    border: 1px solid black;
     box-sizing: border-box;
     width: 100%;
     transition: opacity .2s;

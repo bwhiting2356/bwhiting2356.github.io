@@ -4,6 +4,17 @@
     a {
         font-weight: bold;
     }
+
+    p {
+        margin-bottom: 12px;
+        &:first-child {
+            font-size: 1.4em;
+        }
+    }
+
+    .show-style {
+        font-style: italic;
+    }
 }
 
 #headshot {

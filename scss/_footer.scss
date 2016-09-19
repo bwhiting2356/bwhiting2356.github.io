@@ -5,14 +5,16 @@ footer {
     height: 50px;
     background: $color-header-background;
 
-    .social-icons {
-        padding-top: 15px;
-        width: 170px;
-        margin: 0 auto;
+    .email-container {
+        margin-top: 50px;
+        height: 20px;
+        width: 50px;
+        margin: 10px auto 0 auto;
     }
 
     svg {
-        display: inline-bloxk;
+        // display: inline-block;
+        margin-top: 15px;
         height: 20px;
         width: 50px;
         fill: white;

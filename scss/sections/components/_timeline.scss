@@ -1,10 +1,10 @@
     /*****  TIMELINE  *****/
 
     #timeline {
-        color: darken($blue, 50%);
+        color: darken(black, 50%);
         padding: 10px;
         border-radius: 8px;
-        background: lighten($color-nav-bg, 60%);
+        background: $color-component-bg;
         margin-bottom: 10px;
 
         #chart {

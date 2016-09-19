@@ -6,7 +6,7 @@
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
-    background: lighten($color-nav-bg, 60%);
+    background: $color-component-bg;
     display: inline-block;
 
     h3 {

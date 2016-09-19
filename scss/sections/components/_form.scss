@@ -3,7 +3,7 @@
 #form {
     padding: 10px;
     border-radius: 8px;
-    background: lighten($color-nav-bg, 60%);
+    background: $color-component-bg;
     margin-bottom: 10px;
     .section-heading {
         font-weight: bold;

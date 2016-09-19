@@ -7,19 +7,29 @@ $red: #74180E;
 $brown: #74180E;
 $blue: #384D7A;
 
+$seratoga: #4C5E0F;
+$tidal: #EEFFB5;
+$revolver: #2E1938;
+$petite-orchid: #D9A38F;
+$khaki: #DEF294;
+
 $smartly: #E54558;
 $treehouse: #5FCF80;
 $lynda: #FFB900;
 $code_school: #4CADC1;
 $codecademy: #0F3C56;
 
-$color-header-background: darken($blue, 28%);
-$color-nav-bg: #595C4E;
-$color-nav-bg-active: lighten($color-nav-bg, 10%);
-$color-main-bg: lighten($color-nav-bg, 70%);
+$base-color: black;
 
-$color-item-border: grey;
+$color-header-background: darken($base-color, 28%);
+$color-nav-bg: lighten($base-color, 25%);
+$color-nav-bg-active: lighten($base-color, 10%);
+$color-main-bg: lighten($base-color, 99%);
 
-$color-main-link: darken($blue, 10%);
+$color-component-bg: lighten($color-nav-bg, 66%);
+
+$color-item-border: $base-color;
+
+$color-main-link: lighten($base-color, 15%);
 
 $spacing-row-height: 35px;
