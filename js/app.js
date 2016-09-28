@@ -193,6 +193,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
             'codecademy': true,
             'lynda': true,
             'smartly': true,
+            'datacamp': true,
         }
     };
     console.log(new Date());
@@ -221,6 +222,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
             $scope.search.companies.codecademy = true;
             $scope.search.companies.lynda = true;
             $scope.search.companies.smartly = true;
+            $scope.search.companies.datacamp = true;
         }
         $scope.filter_courses();
     };
@@ -231,6 +233,7 @@ bApp.controller('SkillsController', function SkillsController($scope, $http, $wi
             $scope.search.companies['code school'] && 
             $scope.search.companies.codecademy && 
             $scope.search.companies.lynda && 
+            $scope.search.companies.datacamp &&
             $scope.search.companies.smartly) {
             
             $scope.check_all = true;

@@ -255,6 +255,8 @@ main {
     stroke: #4CADC1; }
   #timeline .codecademy {
     stroke: #0F3C56; }
+  #timeline .datacamp {
+    stroke: #33A0C2; }
   #timeline .end {
     float: right;
     text-align: right;

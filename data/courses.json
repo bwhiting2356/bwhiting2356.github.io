@@ -33,7 +33,7 @@
       "title":"SQL: Table Transformation",
       "date":"2016-08-10T00:14:24.000Z",
       "time":{  
-         "hours":3,
+         "hours":5,
          "minutes":0
       },
       "company":"Codecademy",
@@ -2158,5 +2158,75 @@
       },
       "company":"Lynda",
       "url":"https://www.lynda.com/User-Experience-tutorials/Planning-Career-User-Experience/432558-2.html"
+   },
+      {  
+      "title":"Introduction to R",
+      "date":"2016-09-19T11:00:25.000Z",
+      "time":{  
+         "hours":4,
+         "minutes":0
+      },
+      "company":"DataCamp",
+      "url":"https://www.datacamp.com/courses/free-introduction-to-r"
+   },
+   {  
+      "title":"Introduction to jQuery",
+      "date":"2016-09-20T11:00:25.000Z",
+      "time":{  
+         "hours":1,
+         "minutes":34
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/introduction-to-jquery"
+   },
+   {  
+      "title":"TypeScript Essential Training",
+      "date":"2016-09-20T11:00:25.000Z",
+      "time":{  
+         "hours":4,
+         "minutes":21
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/Typescript-tutorials/TypeScript-Essential-Training/421807-2.html"
+   },
+   {  
+      "title":"Angular 2 Essential Training",
+      "date":"2016-09-24T11:00:25.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":17
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/AngularJS-tutorials/AngularJS-2-Essential-Training/422834-2.html"
+   },
+   {  
+      "title":"Angular 2 Forms: Data Binding and Validation",
+      "date":"2016-09-27T11:00:25.000Z",
+      "time":{  
+         "hours":1,
+         "minutes":10
+      },
+      "company":"Lynda",
+      "url":"https://www.lynda.com/AngularJS-tutorials/Angular-2-Forms-Data-Binding-Validation/461451-2.html"
+   },
+   {  
+      "title":"React Router Basics",
+      "date":"2016-09-26T11:00:25.000Z",
+      "time":{  
+         "hours":1,
+         "minutes":24
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/react-router-basics"
+   },
+   {  
+      "title":"PHP Basics",
+      "date":"2016-09-24T11:00:25.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":39
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/php-basics-2"
    }
 ]
