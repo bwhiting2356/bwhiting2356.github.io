@@ -2228,5 +2228,35 @@
       },
       "company":"Treehouse",
       "url":"https://teamtreehouse.com/library/php-basics-2"
+   },
+   {  
+      "title":"Framework Basics",
+      "date":"2016-10-15T20:20:41.000Z",
+      "time":{  
+         "hours":7,
+         "minutes":43
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/framework-basics"
+   },
+   {  
+      "title":"Prototyping with Foundation for Apps",
+      "date":"2016-10-17T08:33:24.000Z",
+      "time":{  
+         "hours":2,
+         "minutes":23
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/prototyping-with-foundation-for-apps"
+   },
+      {  
+      "title":"React Router Basics",
+      "date":"2016-09-27T13:02:52.000Z",
+      "time":{  
+         "hours":1,
+         "minutes":24
+      },
+      "company":"Treehouse",
+      "url":"https://teamtreehouse.com/library/react-router-basics"
    }
 ]
